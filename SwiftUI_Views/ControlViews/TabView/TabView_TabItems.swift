@@ -19,6 +19,10 @@ struct TabView_TabItems : View {
                     Image(systemName: "phone.arrow.up.right")
                     Text("Outgoing")
                 }
+            Text("Messages")
+                .tabItem {
+                    Label("Messages", systemImage: "phone.and.waveform.fill")
+                }
         }
     }
 }

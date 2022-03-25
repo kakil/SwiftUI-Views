@@ -18,23 +18,21 @@ struct Searchable_Completion: View {
             .navigationTitle(Text("Searchable"))
         }
         .searchable(text: $locationSearch) {
-            HStack {
-                VStack {
+            Group {
+                HStack {
                     Image(systemName: "house.circle")
                         .font(.largeTitle)
                     Text("Home")
                 }
                 .searchCompletion("123 Main Street, Salt Lake City, Utah")
-                .frame(maxWidth: .infinity)
                 
-                VStack {
+                HStack {
                     Image(systemName: "building.2.crop.circle")
                         .font(.largeTitle)
                     Text("Work")
                 }
                 .searchCompletion("456 State Street, Salt Lake City, Utah")
-                .frame(maxWidth: .infinity)
-           }
+            }
             .font(.title2)
             .tint(.primary)
             .padding(.vertical)

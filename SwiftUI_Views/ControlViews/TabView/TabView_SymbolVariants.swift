@@ -5,7 +5,6 @@ import SwiftUI
 struct TabView_SymbolVariants: View {
     var body: some View {
         TabView {
-            // Tab 1
             VStack(spacing: 20.0) {
                 HeaderView("TabView",
                            subtitle: "Symbol Variants",
@@ -20,13 +19,10 @@ struct TabView_SymbolVariants: View {
                 Image(systemName: "star")
                 Text("Home")
             }
-            // Tab 2
             Text("Second Screen").tabItem {
                 Image(systemName: "moon")
                 Text("Night")
             }
-            .foregroundColor(Color.red)
-            // Tab 3
             Text("Third Screen").tabItem {
                 Image(systemName: "sun.min")
                 Text("Day")

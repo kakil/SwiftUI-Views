@@ -21,7 +21,6 @@ struct Searchable_Search: View {
             .font(.title)
             .navigationTitle(Text("Navigation"))
         }
-        .navigationViewStyle(.stack)
         .searchable(text: $locationSearch) {
             ForEach(searchResults, id: \.self) { name in
                 Button(name) {

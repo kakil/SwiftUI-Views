@@ -11,7 +11,7 @@ struct Button_Tint: View {
             
             Button("Bordered - Accent") { }
             .buttonStyle(.bordered)
-            .foregroundColor(Color.accentColor)
+            .foregroundColor(Color.purple)
             
             Button("Bordered - Tint") { }
             .buttonStyle(.bordered)
@@ -23,7 +23,7 @@ struct Button_Tint: View {
             
             Button("Alternative AccentColor") { }
             .buttonStyle(.borderless)
-            .foregroundColor(Color.accentColor)
+            .foregroundColor(Color.purple)
             
             Button("Deprecated AccentColor") { }
             .buttonStyle(.borderless)

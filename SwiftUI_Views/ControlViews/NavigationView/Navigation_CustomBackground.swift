@@ -1,4 +1,4 @@
-// Copyright © 2021 Big Mountain Studio. All rights reserved. Twitter: @BigMtnStudio
+// Copyright © 2022 Big Mountain Studio. All rights reserved. Twitter: @BigMtnStudio
 
 import SwiftUI
 
