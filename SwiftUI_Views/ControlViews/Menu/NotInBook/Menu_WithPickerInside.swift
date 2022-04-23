@@ -19,6 +19,7 @@ struct Menu_WithPickerInside: View {
                 Label(
                     title: { Text("Watching: \(youTuberName)") },
                     icon: { Image(systemName: "person.crop.circle.fill") })
+                    .frame(maxWidth: .infinity)
             }
             
             Spacer()

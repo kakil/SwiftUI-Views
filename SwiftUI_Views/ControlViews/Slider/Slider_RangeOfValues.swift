@@ -1,10 +1,5 @@
-//
-//  Slider_RangeOfValues.swift
-//  SwiftUI_Views
-//
 //  Created by Mark Moeykens on 12/21/19.
 //  Copyright © 2019 Mark Moeykens. All rights reserved.
-//
 
 import SwiftUI
 

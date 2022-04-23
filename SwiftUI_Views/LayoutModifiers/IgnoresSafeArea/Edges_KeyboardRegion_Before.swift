@@ -18,7 +18,7 @@ struct Edges_KeyboardRegion_Before: View {
                     .border(Color.red, width: 2)
                     .padding(.bottom)
                 TextField("Opens Keyboard", text: $text)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .textFieldStyle(.roundedBorder)
                     .padding()
             }
         }

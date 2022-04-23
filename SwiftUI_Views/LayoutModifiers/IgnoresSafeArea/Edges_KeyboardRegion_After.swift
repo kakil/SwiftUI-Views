@@ -20,7 +20,7 @@ struct Edges_KeyboardRegion_After: View {
                     .ignoresSafeArea(SafeAreaRegions.keyboard)
                 
                 TextField("Opens Keyboard", text: $text)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .textFieldStyle(.roundedBorder)
                     .padding()
             }
         }

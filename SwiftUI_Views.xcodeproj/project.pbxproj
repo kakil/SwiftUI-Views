@@ -75,6 +75,9 @@
 		4D018F832362E3050043E37D /* ContentShape_Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D018F822362E3050043E37D /* ContentShape_Solution.swift */; };
 		4D0807D3236FCB5C002C8830 /* HighPriorityGesture_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0807D2236FCB5C002C8830 /* HighPriorityGesture_Before.swift */; };
 		4D0807D6236FD909002C8830 /* ExclusiveGesture_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0807D5236FD909002C8830 /* ExclusiveGesture_Intro.swift */; };
+		4D1EDF2027EF7756009ABDF6 /* Menu_WithSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EDF1F27EF7756009ABDF6 /* Menu_WithSections.swift */; };
+		4D1EDF2227EFB6BC009ABDF6 /* ActionSheet_OnIpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EDF2127EFB6BC009ABDF6 /* ActionSheet_OnIpad.swift */; };
+		4D1EDF2427F377E3009ABDF6 /* FullScreenCover_OverBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EDF2327F377E3009ABDF6 /* FullScreenCover_OverBars.swift */; };
 		4D27436626703CDB00158F16 /* Toolbar_OnKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D27436526703CDB00158F16 /* Toolbar_OnKeyboard.swift */; };
 		4D2743682670440C00158F16 /* TextField_FocusState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2743672670440C00158F16 /* TextField_FocusState.swift */; };
 		4D298B6A2342727700D3C86F /* ZStack_BackgroundColor_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D298B692342727700D3C86F /* ZStack_BackgroundColor_Problem.swift */; };
@@ -504,6 +507,7 @@
 		4DDFD069279DBD270021C5B4 /* Searchable_Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDFD068279DBD270021C5B4 /* Searchable_Filter.swift */; };
 		4DDFD06B279DC3E60021C5B4 /* Searchable_Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDFD06A279DC3E60021C5B4 /* Searchable_Search.swift */; };
 		4DDFD06E279DDE270021C5B4 /* Searchable_Cancel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDFD06D279DDE270021C5B4 /* Searchable_Cancel.swift */; };
+		4DE0DBB3280F3AC70034ABCB /* UIActivity_Share_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0DBB2280F3AC70034ABCB /* UIActivity_Share_Intro.swift */; };
 		4DE4EBF22371C4B3007C9A4A /* HighPriorityGesture_After.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4EBF12371C4B3007C9A4A /* HighPriorityGesture_After.swift */; };
 		4DE7C5CD2789EAEC00F9748A /* List_Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE7C5CC2789EAEC00F9748A /* List_Badge.swift */; };
 		4DE7C5CF2789F04D00F9748A /* TabView_Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE7C5CE2789F04D00F9748A /* TabView_Badge.swift */; };
@@ -823,6 +827,9 @@
 		4D018F822362E3050043E37D /* ContentShape_Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentShape_Solution.swift; sourceTree = "<group>"; };
 		4D0807D2236FCB5C002C8830 /* HighPriorityGesture_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighPriorityGesture_Before.swift; sourceTree = "<group>"; };
 		4D0807D5236FD909002C8830 /* ExclusiveGesture_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExclusiveGesture_Intro.swift; sourceTree = "<group>"; };
+		4D1EDF1F27EF7756009ABDF6 /* Menu_WithSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu_WithSections.swift; sourceTree = "<group>"; };
+		4D1EDF2127EFB6BC009ABDF6 /* ActionSheet_OnIpad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_OnIpad.swift; sourceTree = "<group>"; };
+		4D1EDF2327F377E3009ABDF6 /* FullScreenCover_OverBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover_OverBars.swift; sourceTree = "<group>"; };
 		4D27436526703CDB00158F16 /* Toolbar_OnKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_OnKeyboard.swift; sourceTree = "<group>"; };
 		4D2743672670440C00158F16 /* TextField_FocusState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_FocusState.swift; sourceTree = "<group>"; };
 		4D298B692342727700D3C86F /* ZStack_BackgroundColor_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_BackgroundColor_Problem.swift; sourceTree = "<group>"; };
@@ -1255,6 +1262,7 @@
 		4DDFD068279DBD270021C5B4 /* Searchable_Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searchable_Filter.swift; sourceTree = "<group>"; };
 		4DDFD06A279DC3E60021C5B4 /* Searchable_Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searchable_Search.swift; sourceTree = "<group>"; };
 		4DDFD06D279DDE270021C5B4 /* Searchable_Cancel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searchable_Cancel.swift; sourceTree = "<group>"; };
+		4DE0DBB2280F3AC70034ABCB /* UIActivity_Share_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActivity_Share_Intro.swift; sourceTree = "<group>"; };
 		4DE4EBF12371C4B3007C9A4A /* HighPriorityGesture_After.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighPriorityGesture_After.swift; sourceTree = "<group>"; };
 		4DE7C5CC2789EAEC00F9748A /* List_Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Badge.swift; sourceTree = "<group>"; };
 		4DE7C5CE2789F04D00F9748A /* TabView_Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Badge.swift; sourceTree = "<group>"; };
@@ -2416,6 +2424,7 @@
 				4D346D2323412B860076E7B8 /* ActionSheets_PassDataInto.swift */,
 				592A582425E5480500959CA7 /* ActionSheet_ChangeBack.swift */,
 				4D346D2123412B860076E7B8 /* ActionSheet_Buttons.swift */,
+				4D1EDF2127EFB6BC009ABDF6 /* ActionSheet_OnIpad.swift */,
 			);
 			path = ActionSheets;
 			sourceTree = "<group>";
@@ -3164,6 +3173,7 @@
 			isa = PBXGroup;
 			children = (
 				4D7159D2267148EC00EB43E0 /* Materials_Intro.swift */,
+				4DE0DBB2280F3AC70034ABCB /* UIActivity_Share_Intro.swift */,
 			);
 			path = "Uncategorized-Beta";
 			sourceTree = "<group>";
@@ -3767,6 +3777,7 @@
 				59329A0024D3BFC90079351F /* Menu_MenuPosition.swift */,
 				59329A0224D3C3B40079351F /* Menu_MaxItems.swift */,
 				59329A0424D3C5100079351F /* Menu_OtherViewsWithin.swift */,
+				4D1EDF1F27EF7756009ABDF6 /* Menu_WithSections.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -3816,6 +3827,7 @@
 			isa = PBXGroup;
 			children = (
 				59ABDD5624A5120B0020B7FB /* FullScreenCover_Intro.swift */,
+				4D1EDF2327F377E3009ABDF6 /* FullScreenCover_OverBars.swift */,
 			);
 			path = FullScreenCover;
 			sourceTree = "<group>";
@@ -4199,6 +4211,7 @@
 				4D346CD32340F28B0076E7B8 /* Color_UsingSystemFills.swift in Sources */,
 				4D346C5F2340F1B60076E7B8 /* Toggle_Intro.swift in Sources */,
 				36D5A18626B38ADD0092D85B /* ConfirmationDialog_OnIpad.swift in Sources */,
+				4DE0DBB3280F3AC70034ABCB /* UIActivity_Share_Intro.swift in Sources */,
 				4D346C652340F1B60076E7B8 /* Button-FloatingAction.swift in Sources */,
 				59E8114924B065C4004D8C90 /* LazyHGrid_PinnedViews.swift in Sources */,
 				3603514026B37002004ACA79 /* Label_HideShowComponents.swift in Sources */,
@@ -4516,6 +4529,7 @@
 				595E6BC8254B3EA900020B55 /* LayoutConcepts.swift in Sources */,
 				4D346C7B2340F1B60076E7B8 /* TabView_Intro.swift in Sources */,
 				4D346BBA2340F0B10076E7B8 /* GeometryReader_Intro.swift in Sources */,
+				4D1EDF2227EFB6BC009ABDF6 /* ActionSheet_OnIpad.swift in Sources */,
 				4DA78E8E27986EFC006DABB3 /* FB_FocusStateCrash.swift in Sources */,
 				4D346CDF2340F28B0076E7B8 /* Rectangular_Stokes.swift in Sources */,
 				4DDFD06E279DDE270021C5B4 /* Searchable_Cancel.swift in Sources */,
@@ -4710,6 +4724,7 @@
 				59329A0124D3BFC90079351F /* Menu_MenuPosition.swift in Sources */,
 				4D346E2623412E2A0076E7B8 /* CornerRadius_FullyRoundedSides.swift in Sources */,
 				364A442026A7DB9B00BEB939 /* List_ListSectionSeparator.swift in Sources */,
+				4D1EDF2027EF7756009ABDF6 /* Menu_WithSections.swift in Sources */,
 				4D346C482340F1B60076E7B8 /* Picker_BindingToData.swift in Sources */,
 				4D346E2B23412E2A0076E7B8 /* Rotation_Anchor.swift in Sources */,
 				4D346D6F23412C9C0076E7B8 /* AspectRatio_Devices.swift in Sources */,
@@ -4756,6 +4771,7 @@
 				592B37EC24C287EB0084935F /* List_ListItemTint.swift in Sources */,
 				4D7F573F240104F30023A8F5 /* Navigation_WithListNoNavBar.swift in Sources */,
 				360F247E26F4140500125B43 /* EllipticalGradient_SizeChanges.swift in Sources */,
+				4D1EDF2427F377E3009ABDF6 /* FullScreenCover_OverBars.swift in Sources */,
 				4D346D2723412B860076E7B8 /* ContextMenu_ConditionallyShowing.swift in Sources */,
 				595BD8A324B01CD2005AB91B /* LazyVStack_Alignment.swift in Sources */,
 				4D54DFFC2360734600E3F71F /* TextFieldStyle_Intro.swift in Sources */,
@@ -4951,7 +4967,7 @@
 				DEVELOPMENT_TEAM = L2T9XB5368;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI_Views/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4973,7 +4989,7 @@
 				DEVELOPMENT_TEAM = L2T9XB5368;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI_Views/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

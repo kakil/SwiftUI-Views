@@ -5,20 +5,9 @@ import SwiftUI
 struct Overlay_Images: View {
     var body: some View {
         VStack(spacing: 20) {
-            Text("Overlay")
-                .font(.largeTitle)
-            
-            Text("Over Images with Alignment")
-                .font(.title)
-                .foregroundColor(.gray)
-            
-            Image("Overlay")
-            
-            Text("Overlays are great when showing text over images.")
-                .frame(maxWidth: .infinity)
-                .padding().font(.title)
-                .background(Color.blue)
-                .foregroundColor(Color.white)
+            HeaderView("Overlay", subtitle: "Over Images with Alignment",
+                       desc: "Overlays are great when showing text over images.",
+                       back: .blue, textColor: .white)
             
             Image("canyonlands")
                 .resizable()
@@ -30,6 +19,7 @@ struct Overlay_Images: View {
                     .foregroundColor(.white)
                     .padding(.bottom), alignment: .bottom)
         }
+        .font(.title)
     }
 }
 

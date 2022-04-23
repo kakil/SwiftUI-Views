@@ -11,4 +11,4 @@ The folders inside the chapters represent the sections you see in the book.
 The git file is now included with the project so you can see the changes that were made to the latest release of the book through the Xcode project.
 
 # Simulator - Previewing
-In the book, I use the iPhone 12 Simulator. So if you want to see the same resolution, I suggest using the same or a device with a similar resolution to avoid layout differences.
+In the book, I use the iPhone 13 Simulator. So if you want to see the same resolution, I suggest using the same or a device with a similar resolution to avoid layout differences.

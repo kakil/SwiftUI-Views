@@ -5,7 +5,9 @@ import SwiftUI
 struct Overlay_ImagesAndButtons: View {
     var body: some View {
         VStack(spacing: 40.0) {
-            HeaderView("Overlay", subtitle: "Overlay Buttons on Images", desc: "You can overlay buttons on images to provide functionality. \nUse offset to get it just right.", back: .blue, textColor: .white)
+            HeaderView("Overlay", subtitle: "Overlay Buttons on Images",
+                       desc: "You can overlay buttons on images to provide functionality. \nUse offset to get it just right.",
+                       back: .blue, textColor: .white)
             
             Image("profile")
                 .overlay(

@@ -1,10 +1,5 @@
-//
-//  ActionSheet_Parts.swift
-//  100Views
-//
 //  Created by Mark Moeykens on 8/13/19.
 //  Copyright © 2019 Mark Moeykens. All rights reserved.
-//
 
 import SwiftUI
 
@@ -27,29 +22,22 @@ struct ActionSheet_Intro: View {
     
     var body: some View {
         VStack(spacing: 20) {
-            Text("ActionSheet")
-                .font(.largeTitle)
-            
-            Text("Introduction")
-                .font(.title)
-                .foregroundColor(.gray)
-            
-            Text("The ActionSheet view holds all the parts of an action sheet in one object to be presented.")
-                .frame(maxWidth: .infinity)
-                .padding().font(.title)
-                .background(Color.blue)
-                .foregroundColor(Color.white)
+            HeaderView("ActionSheet", subtitle: "Introduction",
+                       desc: "The ActionSheet view holds all the parts of an action sheet in one object to be presented.",
+                       back: .blue, textColor: .white)
             
             Button("Show ActionSheet") {
                 presentingActionSheet = true
             }
-            Spacer()
             
-        }.actionSheet(isPresented: $presentingActionSheet) {
+            Spacer()
+        }
+        .actionSheet(isPresented: $presentingActionSheet) {
             // Which ActionSheet do you want to return?
             // Remember, the return keyword is optional for single expressions
             actionSheet
         }
+        .font(.title)
     }
 }
 

@@ -1,10 +1,5 @@
-//
-//  ActionSheet_Buttons.swift
-//  100Views
-//
 //  Created by Mark Moeykens on 8/15/19.
 //  Copyright © 2019 Mark Moeykens. All rights reserved.
-//
 
 import SwiftUI
 

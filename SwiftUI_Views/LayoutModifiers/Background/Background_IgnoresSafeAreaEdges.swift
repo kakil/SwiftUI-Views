@@ -46,7 +46,7 @@ struct Background_IgnoresSafeAreaEdges: View {
                     
                     Text("Prevent from going into the TabView.")
                         .background(Color("GoldColor"),
-                                    ignoresSafeAreaEdges: .init())
+                                    ignoresSafeAreaEdges: [])
                 }
                 .font(.title)
                 .background(Color("GoldColor").opacity(0.2))
