@@ -21,7 +21,7 @@ struct Alert_PresentingWithBool: View {
             
             Spacer()
             
-            // 3. Use the alert function to listen to the State variable for changes and return an ActionSheet object when true
+            // 3. Use the alert function to listen to the State variable for changes and return an Alert object when true
         }
         .alert(isPresented: $presentingAlert) { () -> Alert in
             Alert(title: Text("Title of the Alert"))

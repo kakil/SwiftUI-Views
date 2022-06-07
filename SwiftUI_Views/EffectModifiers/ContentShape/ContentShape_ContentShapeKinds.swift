@@ -5,8 +5,8 @@ import SwiftUI
 struct ContentShape_ContentShapeKinds: View {
     var body: some View {
         VStack(spacing: 40) {
-            HeaderView("ContentShape", subtitle: "ContentShapeKinds",
-                       desc: "You can define kinds for content shapes that allow you to types of interactivity.", back: .pink, textColor: .white)
+            Text("ContentShape")
+                .font(.largeTitle)
             
             Image(systemName: "trash.circle")
                 .font(.system(size: 70))
@@ -23,6 +23,8 @@ struct ContentShape_ContentShapeKinds: View {
                     Button("Menu 1") { }
                     Button("Menu 2") { }
                 }
+            
+            Spacer()
         }
         .font(.title)
     }

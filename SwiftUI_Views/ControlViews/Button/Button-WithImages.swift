@@ -6,11 +6,22 @@ import SwiftUI
 struct Button_WithPhotos: View {
     var body: some View {
         VStack(spacing: 10) {
-            HeaderView("Button", subtitle: "With Images",
-                       desc: "Buttons work fine with the SF Symbols. But what if you wanted to use a photo?", back: .purple)
+            Text("Button")
+                .font(.largeTitle)
             
             Button(action: {}) {
                 Image("yosemite")
+            }
+            
+            Button(action: {}) {
+                Image("yosemite")
+                    .renderingMode(.original)
+                    .cornerRadius(40)
+            }
+            
+            Button(action: {}) {
+                Image("yosemite")
+                    .renderingMode(.template)
                     .cornerRadius(40)
             }
         }
