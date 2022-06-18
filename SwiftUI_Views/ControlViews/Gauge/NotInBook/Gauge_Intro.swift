@@ -1,25 +1,53 @@
-//  Copyright © 2020 Mark Moeykens. All rights reserved. | @BigMtnStudio
+// Copyright © 2022 Big Mountain Studio. All rights reserved. Twitter: @BigMtnStudio
 
 import SwiftUI
 
 struct Gauge_Intro: View {
+    @State private var progress = 0.25
+    
     var body: some View {
-        VStack(spacing: 20.0) {
-            Text("Gauge")
-                .font(.largeTitle)
+        VStack(spacing: 40.0) {
+            Gauge(value: progress) {
+                Text("Default on iOS")
+            }
             
-            Text("Introduction")
-                .foregroundColor(.gray)
+            Gauge(value: progress) {
+                Text("Level")
+            }
+            .gaugeStyle(.accessoryCircular)
+            .tint(.orange)
             
-            Text("Gauge gives you a way to show progress in a circular way.")
-                .frame(maxWidth: .infinity)
-                .padding()
-                .background(Color.pink)
-                .foregroundColor(.black)
+            Gauge(value: progress) {
+                Text("level")
+            } currentValueLabel: {
+                Text("25%")
+                    .font(.caption)
+            }
+            .gaugeStyle(.accessoryCircular)
+            .tint(.yellow)
             
-            // Not available in iOS
-//            Gauge(value: 2, in: 1...5)
+            Gauge(value: progress) {
+                Text("Level")
+                    .padding(5)
+            }
+            .gaugeStyle(.accessoryCircularCapacity)
+            .tint(.red)
+            
+            Gauge(value: progress) {
+                Text("linearCapacity")
+                    .padding(5)
+            }
+            .gaugeStyle(.linearCapacity)
+            .tint(.purple)
+            
+            Gauge(value: progress) {
+                Text("accessoryLinearCapacity")
+                    .padding(5)
+            }
+            .gaugeStyle(.accessoryLinearCapacity)
+            .tint(.purple)
         }
+        .padding(.horizontal)
         .font(.title)
     }
 }

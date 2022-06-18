@@ -473,6 +473,7 @@
 		4DA7CB15279C86AE00C7AE5D /* Alerts_ButtonRoles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7CB14279C86AE00C7AE5D /* Alerts_ButtonRoles.swift */; };
 		4DA7CB17279C8D3A00C7AE5D /* Alerts_UsingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7CB16279C8D3A00C7AE5D /* Alerts_UsingData.swift */; };
 		4DA9BB642772772600A47404 /* ToggleTint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9BB632772772600A47404 /* ToggleTint.swift */; };
+		4DAFCB4C2853D85500B5C93F /* Layout_Column.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFCB4B2853D85500B5C93F /* Layout_Column.swift */; };
 		4DB44CD827627368009AB5F4 /* FB9803194.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB44CD727627368009AB5F4 /* FB9803194.swift */; };
 		4DB64AF4236DD0EB00B74D21 /* DragGesture_OnChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB64AF3236DD0EB00B74D21 /* DragGesture_OnChanged.swift */; };
 		4DB64AF6236DE9D900B74D21 /* DragGesture_OnEnded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB64AF5236DE9D900B74D21 /* DragGesture_OnEnded.swift */; };
@@ -1228,6 +1229,7 @@
 		4DA7CB14279C86AE00C7AE5D /* Alerts_ButtonRoles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_ButtonRoles.swift; sourceTree = "<group>"; };
 		4DA7CB16279C8D3A00C7AE5D /* Alerts_UsingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_UsingData.swift; sourceTree = "<group>"; };
 		4DA9BB632772772600A47404 /* ToggleTint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTint.swift; sourceTree = "<group>"; };
+		4DAFCB4B2853D85500B5C93F /* Layout_Column.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout_Column.swift; sourceTree = "<group>"; };
 		4DB44CD727627368009AB5F4 /* FB9803194.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FB9803194.swift; sourceTree = "<group>"; };
 		4DB64AF3236DD0EB00B74D21 /* DragGesture_OnChanged.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_OnChanged.swift; sourceTree = "<group>"; };
 		4DB64AF5236DE9D900B74D21 /* DragGesture_OnEnded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_OnEnded.swift; sourceTree = "<group>"; };
@@ -1762,6 +1764,7 @@
 				597B9C1B24A3AED5003320E2 /* LazyVGrid */,
 				597B9C0D24A39FAA003320E2 /* ScrollViewReader */,
 				4D80B1F8266FE60C00F5240E /* ControlGroup */,
+				4DAFCB4A2853D82000B5C93F /* Layout */,
 			);
 			path = LayoutViews;
 			sourceTree = "<group>";
@@ -3198,6 +3201,14 @@
 			path = NotInBook;
 			sourceTree = "<group>";
 		};
+		4DAFCB4A2853D82000B5C93F /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				4DAFCB4B2853D85500B5C93F /* Layout_Column.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
 		4DB44CD62762734C009AB5F4 /* NotInBook */ = {
 			isa = PBXGroup;
 			children = (
@@ -4389,6 +4400,7 @@
 				4D346DFB23412E2A0076E7B8 /* HueRotation_Photos.swift in Sources */,
 				4D346C6A2340F1B60076E7B8 /* SegmentedControl_Colors.swift in Sources */,
 				59ADC5AB24B23A7600B3580D /* DatePicker_Styles.swift in Sources */,
+				4DAFCB4C2853D85500B5C93F /* Layout_Column.swift in Sources */,
 				4D51CBA627A1E05D00A2E1B5 /* Searchable_Filter_Grid.swift in Sources */,
 				4D346CE42340F28B0076E7B8 /* Divider_Intro.swift in Sources */,
 				4D0807D6236FD909002C8830 /* ExclusiveGesture_Intro.swift in Sources */,
@@ -4890,7 +4902,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -4947,7 +4959,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -4967,7 +4979,7 @@
 				DEVELOPMENT_TEAM = L2T9XB5368;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI_Views/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4989,7 +5001,7 @@
 				DEVELOPMENT_TEAM = L2T9XB5368;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI_Views/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
