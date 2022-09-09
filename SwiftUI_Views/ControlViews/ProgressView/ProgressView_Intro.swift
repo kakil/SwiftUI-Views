@@ -16,7 +16,8 @@ struct ProgressView_Intro: View {
             ProgressView("Loading...")
                 .font(Font.system(.title2, design: .monospaced).weight(.bold))
             
-            DescView(desc: "Which, as you can see, can be customized.", back: .blue, textColor: .white)
+            DescView(desc: "Which, as you can see, can be customized.",
+                     back: .blue, textColor: .white)
         }
         .font(.title)
     }

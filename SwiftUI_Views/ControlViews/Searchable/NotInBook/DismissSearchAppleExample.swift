@@ -6,7 +6,7 @@ struct DismissSearchAppleExample: View {
     @State private var text = ""
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             MyMainList()
                .searchable(text: $text)
         }
@@ -35,7 +35,7 @@ struct MyMainList: View {
                                 .background()
                         }
                         .sheet(isPresented: $isPresented) {
-                            NavigationView {
+                            NavigationStack {
                                 MyMainListDetailView()
                             }
                         }

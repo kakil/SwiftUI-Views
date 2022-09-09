@@ -4,31 +4,20 @@ import SwiftUI
 
 struct Navigation_UINavigationBarAppearance: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
-                Divider()
-                    .background(Color("Theme3ForegroundColor").opacity(0.5))
-                
-                Spacer()
-                
-                HeaderView("",
-                           subtitle: "UINavigationBarAppearance",
-                           desc: "Use UINavigationBarAppearance to apply a style/color on ALL navigation bars.",
-                           back: Color("Theme3ForegroundColor"),
-                           textColor: Color("Theme3BackgroundColor"))
-                
-                Spacer()
+
             }
-            .navigationTitle("NavigationView")
+            .navigationTitle("Appearance")
             .font(.title)
-            .onAppear {
-                let appearance = UINavigationBarAppearance()
-                
-                appearance.backgroundColor = UIColor(Color("Theme3ForegroundColor").opacity(0.5))
-                
-                UINavigationBar.appearance().standardAppearance = appearance
-                UINavigationBar.appearance().scrollEdgeAppearance = appearance
-            }
+        }
+        .onAppear {
+            let appearance = UINavigationBarAppearance()
+            
+            appearance.backgroundColor = UIColor(Color.green.opacity(0.25))
+            
+            UINavigationBar.appearance().standardAppearance = appearance
+            UINavigationBar.appearance().scrollEdgeAppearance = appearance
         }
     }
 }

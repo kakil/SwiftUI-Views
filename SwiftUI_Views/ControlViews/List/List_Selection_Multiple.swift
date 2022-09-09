@@ -7,7 +7,7 @@ struct List_Selection_Multiple: View {
     @State private var selections = Set<String>()
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(spacing: 0) {
                 HeaderView("",
                            subtitle: "Selecting Multiple Rows",

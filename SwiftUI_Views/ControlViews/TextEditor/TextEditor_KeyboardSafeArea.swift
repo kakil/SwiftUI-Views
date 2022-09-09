@@ -26,7 +26,7 @@ struct TextEditor_KeyboardSafeArea: View {
             Spacer()
         }
         .font(.title)
-        .accentColor(.pink)
+        .tint(.pink)
     }
 }
 

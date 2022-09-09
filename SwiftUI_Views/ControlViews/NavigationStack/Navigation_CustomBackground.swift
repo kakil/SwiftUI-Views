@@ -4,23 +4,24 @@ import SwiftUI
 
 struct Navigation_CustomBackground: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
                 Divider()
-                    .background(Color("Theme3ForegroundColor").opacity(0.5))
+                    .background(
+                        LinearGradient(colors: [.green, .blue],
+                                       startPoint: .leading,
+                                       endPoint: .trailing)
+                        .opacity(0.5)
+                        .shadow(.drop(radius: 2, y: 2)),
+                        ignoresSafeAreaEdges: .top)
                 
                 Spacer()
-                
-                HeaderView("",
-                           subtitle: "Custom Background",
-                           desc: "The new background modifier allows you to have backgrounds that ignore safe area edges, such as the nav view safe area edge.",
-                           back: Color("Theme3ForegroundColor"),
-                           textColor: Color("Theme3BackgroundColor"))
-                
-                Spacer()
+                /*
+                Text("The background modifier that allows you to set Style will ignore safe area edges by default.")
+                 BOOK NOTE: This will only work on ONE Navigation Stack.
+                 */
             }
-            .navigationTitle("NavigationView")
-            .font(.title)
+            .navigationTitle("Custom Background")
         }
     }
 }

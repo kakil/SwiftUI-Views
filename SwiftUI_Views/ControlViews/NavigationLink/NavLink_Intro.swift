@@ -4,18 +4,15 @@ import SwiftUI
 
 struct NavLink_Intro: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(spacing: 20) {
-                HeaderView("",
-                           subtitle: "Introduction",
-                           desc: "Use NavigationLink to navigate to a new view inside a NavigationView.",
-                           back: Color("Theme3ForegroundColor"),
-                           textColor: Color("Theme3BackgroundColor"))
                 NavigationLink("Just Text", destination: SecondView())
-                Spacer()
-                DescView(desc: "This is the basic implementation using just text and a destination. The destination can be any view.",
-                         back: Color("Theme3ForegroundColor"),
-                         textColor: Color("Theme3BackgroundColor"))
+                
+                NavigationLink {
+                    SecondView()
+                } label: {
+                    Label("Label", systemImage: "doc.text.fill")
+                }
             }
             .navigationTitle("NavigationLink")
         }
@@ -28,8 +25,8 @@ struct SecondView: View {
         VStack {
             Text("View 2")
                 .font(.largeTitle)
-            Spacer()
         }
+        .navigationTitle("Second View")
     }
 }
 

@@ -30,7 +30,7 @@ struct TabView_Colors : View {
                 }
         }
         .font(.title)
-        .accentColor(.yellow)
+        .accentColor(.yellow) // accentColor is deprecated but tint doesn't work yet
     }
 }
 

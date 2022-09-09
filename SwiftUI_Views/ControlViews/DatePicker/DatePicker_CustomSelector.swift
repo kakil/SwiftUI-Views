@@ -9,7 +9,7 @@ struct DatePicker_CustomSelector: View {
         VStack(spacing: 30) {
             HeaderView("DatePicker",
                        subtitle: "Custom Selector",
-                       desc: "At this time we can not customize the color of the text or background. Here are some other options though.", back: .green)
+                       desc: "At this time we can not customize the color of the text or background. Here is one option though.", back: .green)
             
             DatePicker("Today", selection: $date, displayedComponents: .date)
                 .labelsHidden()
@@ -18,9 +18,6 @@ struct DatePicker_CustomSelector: View {
             
             DescView(desc: "What does NOT work:", back: .green)
             Form {
-                DatePicker("accentColor", selection: $date, displayedComponents: .date)
-                    .accentColor(.green)
-                
                 DatePicker("foregroundColor", selection: $date, displayedComponents: .date)
                     .foregroundColor(.green)
                 
@@ -30,7 +27,7 @@ struct DatePicker_CustomSelector: View {
                 DatePicker("tint", selection: $date, displayedComponents: .date)
                     .tint(.green)
             }
-            .font(.body)
+            .font(.title2)
         }
         .font(.title)
     }

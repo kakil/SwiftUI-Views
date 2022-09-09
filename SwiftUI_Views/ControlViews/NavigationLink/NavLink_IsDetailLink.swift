@@ -4,37 +4,31 @@ import SwiftUI
 
 struct NavLink_IsDetailLink: View {
     var body: some View {
-        NavigationView {
+        NavigationSplitView {
             VStack(spacing: 20) {
-                HeaderView("",
-                           subtitle: "isDetailLink",
-                           desc: "By default, when you navigate on an iPad, your first view will be on the left and your new view will be on the right. The view on the right is called the 'Detail'. You can change this behavior by using the isDetailLink modifier.",
-                           back: Color("Theme3ForegroundColor"),
-                           textColor: Color("Theme3BackgroundColor"))
+                NavigationLink("Navigate There ->") {
+                    NavigationDestinationView()
+                }
                 
-                NavigationLink(
-                    destination: DetailLinkView(),
-                    label: {
-                        Text("Show Detail Inside")
-                    })
-                    .isDetailLink(true)
+                NavigationLink("Navigate Here") {
+                    NavigationDestinationView()
+                }
+                .isDetailLink(false) // Do not navigate to detail column
             }
             .navigationTitle("NavigationLink")
-            .font(.title)
+        } detail: {
+            Text("Detail")
         }
+        .font(.title)
     }
 }
 
-struct DetailLinkView: View {
+struct NavigationDestinationView: View {
     var body: some View {
         VStack(spacing: 20) {
-            HeaderView("",
-                       subtitle: "isDetailLink",
-                       desc: "When isDetailLink is set to false, navigation happens within the same pane.",
-                       back: Color("Theme3ForegroundColor"),
-                       textColor: Color("Theme3BackgroundColor"))
+            Text("Navigation Destination")
         }
-        .navigationTitle("Detail View")
+        .navigationTitle("Destination")
         .font(.title)
     }
 }

@@ -9,7 +9,7 @@ struct Searchable_Search: View {
     @State private var destination = ""
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(spacing: 20.0) {
                 Text("Where do you want to go?")
                 Text(destination)

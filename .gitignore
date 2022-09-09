@@ -1,2 +1,4 @@
 
 *.xcuserstate
+.DS_Store
+SwiftUI_Views.xcodeproj/xcuserdata/mark.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist

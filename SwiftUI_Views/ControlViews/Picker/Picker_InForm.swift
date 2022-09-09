@@ -7,20 +7,34 @@ struct Picker_InForm: View {
     var numberOfDaysOptions = ["1", "2", "3", "4", "5"]
     
     var body: some View {
-        NavigationView {
-            VStack {
-                HeaderView("", subtitle: "Pickers in Forms",
-                           desc: "When you add a Picker to a Form it will want to navigate to another view for selection. The Form should be within a NavigationView or it will look disabled.")
-                
-                Form {
-                    Picker("Frequency", selection: $selectedDaysOption) {
-                        ForEach(numberOfDaysOptions, id: \.self) {
-                            Text("\($0) Days").tag($0)
-                        }
+        VStack {
+//            Form {
+                Picker("Frequency", selection: $selectedDaysOption) {
+                    ForEach(numberOfDaysOptions, id: \.self) {
+                        Text("\($0) Days").tag($0)
                     }
                 }
-                .navigationTitle("Picker")
-            }
+                Picker("Frequency", selection: $selectedDaysOption) {
+                    ForEach(numberOfDaysOptions, id: \.self) {
+                        Text("\($0) Days").tag($0)
+                    }
+                }
+                .pickerStyle(.menu) // Add this modifier to make it use the accent color
+                Picker("Frequency", selection: $selectedDaysOption) {
+                    ForEach(numberOfDaysOptions, id: \.self) {
+                        Text("\($0) Days").tag($0)
+                    }
+                }
+                .pickerStyle(.inline)
+                
+                Picker("Frequency", selection: $selectedDaysOption) {
+                    ForEach(numberOfDaysOptions, id: \.self) {
+                        Text("\($0) Days").tag($0)
+                    }
+                }
+                .pickerStyle(.wheel)
+//            }
+            .navigationTitle("Picker")
         }
         .font(.title)
     }

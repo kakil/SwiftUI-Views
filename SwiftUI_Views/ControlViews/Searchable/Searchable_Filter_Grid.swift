@@ -7,7 +7,7 @@ struct Searchable_Filter_Grid: View {
     @State private var searchText = ""
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
                 ScrollView {
                     LazyVGrid(columns: [GridItem(.flexible()),

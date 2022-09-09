@@ -26,7 +26,7 @@ struct Slider_WithImages : View {
             
             VStack {
                 Slider(value: $sliderValue)
-                    .accentColor(.orange)
+                    .tint(.orange)
                 HStack {
                     Image(systemName: "circle")
                     Spacer()

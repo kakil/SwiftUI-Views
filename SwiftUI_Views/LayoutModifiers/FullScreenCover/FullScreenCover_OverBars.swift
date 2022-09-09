@@ -7,7 +7,7 @@ struct FullScreenCover_OverBars: View {
     
     var body: some View {
         TabView {
-            NavigationView {
+            NavigationStack {
                 VStack(spacing: 20) {
                     HeaderView("",
                                subtitle: "Over Bars",

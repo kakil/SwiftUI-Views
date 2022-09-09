@@ -3,55 +3,56 @@
 import SwiftUI
 
 struct NavLink_PopToRoot: View {
-    @State private var isActive = false
-    
+    @State private var navPath: [String] = []
+
     var body: some View {
-        NavigationView {
-            VStack(spacing: 20) {
-                HeaderView("",
-                           subtitle: "Pop To Root",
-                           desc: "After navigating through more than one view, you may want to reverse navigation programmatically all the way back to the beginning (root) view.",
-                           back: Color("Theme3ForegroundColor"),
-                           textColor: Color("Theme3BackgroundColor"))
-                
-                NavigationLink(
-                    destination: NavLinkView2(isActive: $isActive),
-                    isActive: $isActive,
-                    label: {
-                        Text("Navigate to View 2")
-                    })
+        NavigationStack(path: $navPath) {
+            VStack {
+                NavigationLink(value: "View 2") {
+                    Text("Go to View 2")
+                }
             }
-            .navigationTitle("NavigationLink")
-            .font(.title)
+            .navigationTitle("Pop to Root")
+            .navigationDestination(for: String.self) { pathValue in
+                if pathValue == "View 2" {
+                    NavLinkView2(navPath: $navPath)
+                } else {
+                    NavLinkView3(navPath: $navPath)
+                }
+            }
         }
+        .font(.title)
     }
 }
 
 struct NavLinkView2: View {
-    @Binding var isActive: Bool
+    @Binding var navPath: [String]
     
     var body: some View {
-        VStack {
-            NavigationLink("Navigate to View 3", destination: NavLinkView3(isActive: $isActive))
+        VStack(spacing: 20) {
+            NavigationLink(value: "View 3") {
+                Text("Go to View 3")
+            }
+            
+            Text("Nav Path Items:")
+            Text(navPath, format: .list(type: .and, width: .short))
         }
         .navigationTitle("View 2")
-        .font(.title)
     }
 }
 
 struct NavLinkView3: View {
-    @Binding var isActive: Bool
+    @Binding var navPath: [String]
     
     var body: some View {
         VStack {
-            Button(action: {
-                isActive.toggle()
-            }, label: {
-                Text("Go Back to Root View")
-            })
+            Button("Pop to Root View") {
+                navPath.removeAll()
+            }
+            Text("Nav Path Items:")
+            Text(navPath, format: .list(type: .and, width: .short))
         }
         .navigationTitle("View 3")
-        .font(.title)
     }
 }
 

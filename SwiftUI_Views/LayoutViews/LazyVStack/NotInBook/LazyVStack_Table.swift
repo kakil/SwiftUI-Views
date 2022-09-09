@@ -6,7 +6,7 @@ struct LazyVStack_Table: View {
     @State private var data = Data.getProfiles()
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ScrollView {
                 LazyVStack {
                     ForEach(data) { datum in

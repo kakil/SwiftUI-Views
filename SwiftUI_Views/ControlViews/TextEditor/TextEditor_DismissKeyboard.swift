@@ -39,7 +39,7 @@ struct TextEditor_DismissKeyboard: View {
             .padding(.horizontal)
         }
         .font(.title)
-        .accentColor(.pink)
+        .tint(.pink)
     }
 }
 

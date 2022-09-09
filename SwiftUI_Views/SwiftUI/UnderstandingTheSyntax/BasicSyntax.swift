@@ -17,7 +17,7 @@ struct BasicSyntax: View {
 }
 
 struct Person {
-    // Computed read-only property (value is not stored)
+    // Computed read-only property (no setter, value is not stored)
     var personType: String {
         get {
             return "human"

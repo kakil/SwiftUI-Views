@@ -23,7 +23,7 @@ struct List_HeaderFooter_Sidebar: View {
                 }
             }
             .listStyle(.sidebar)
-            .accentColor(.green)
+            .tint(.green)
         }
         .font(.title)
     }

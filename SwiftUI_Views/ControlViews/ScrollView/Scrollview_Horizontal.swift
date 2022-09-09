@@ -8,25 +8,17 @@ struct Scrollview_Horizontal : View {
     
     var body: some View {
         GeometryReader { gr in
-            VStack(spacing: 40) {
-                HeaderView("ScrollView",
-                           subtitle: "Scroll Horizontally",
-                           desc: "Just set the ScrollView's axis to horizontal and if the contents go horizontally beyond the frame, scrolling will be enabled.")
-                
-                ScrollView(Axis.Set.horizontal, showsIndicators: true) {
-                    HStack {
-                        ForEach(self.items, id: \.self) { item in
-                            RoundedRectangle(cornerRadius: 15)
-                                .fill(item)
-                                .frame(width: gr.size.width - 60,
-                                       height: 200)
-                        }
+            ScrollView(Axis.Set.horizontal, showsIndicators: true) {
+                HStack {
+                    ForEach(items, id: \.self) { item in
+                        RoundedRectangle(cornerRadius: 15)
+                            .fill(item)
+                            .frame(width: gr.size.width - 60,
+                                   height: 200)
                     }
                 }
-                .padding(.horizontal)
-                
-                Spacer()
             }
+            .padding(.horizontal)
         }
         .font(.title)
     }

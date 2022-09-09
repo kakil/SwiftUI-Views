@@ -7,7 +7,7 @@ struct Searchable_SearchCompletion: View {
     @State private var searchText = ""
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
                 List {
                     ForEach(searchResults, id: \.self) { name in

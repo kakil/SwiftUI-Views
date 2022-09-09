@@ -8,7 +8,7 @@ struct Searchable_Filter: View {
     @State private var nameSearch = ""
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(spacing: 20.0) {
                 List(nameSearch.isEmpty ? names : filteredNames, id: \.self) { name in
                     Text(name)

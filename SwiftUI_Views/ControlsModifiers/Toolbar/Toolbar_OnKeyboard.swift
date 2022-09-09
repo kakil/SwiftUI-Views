@@ -7,10 +7,6 @@ struct Toolbar_OnKeyboard: View {
     
     var body: some View {
         VStack(spacing: 20.0) {
-            HeaderView("Toolbar",
-                       subtitle: "On Keyboard",
-                       desc: "You can add buttons above the keyboard with the ToolbarItemGroup and a placement of 'keyboard'.")
-            
             TextField("add name", text: $text)
                 .textFieldStyle(.roundedBorder)
                 .padding()

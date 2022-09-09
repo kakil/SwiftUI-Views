@@ -7,7 +7,7 @@ struct List_MoveRow : View {
     @State var data = ["Hit the Edit button to reorder", "Practice Coding", "Grocery shopping", "Get tickets", "Clean house", "Do laundry", "Cook dinner", "Paint room"]
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 ForEach(data, id: \.self) { datum in
                     Text(datum).font(Font.system(size: 24)).padding()

@@ -6,36 +6,22 @@ import SwiftUI
 struct Scrollview_Intro : View {
     @State private var names = ["Scott", "Mark", "Chris", "Sean", "Rod", "Meng", "Natasha", "Chase", "Evans", "Paul", "Durtschi", "Max"]
     var body: some View {
-        NavigationView {
-            ScrollView {
-                ForEach(self.names, id: \.self) { name in
-                    NavigationLink(destination: DetailView(name: name)) {
-                        HStack {
-                            Text(name).foregroundColor(.primary)
-                            Image(systemName: "checkmark.seal.fill")
-                                .foregroundColor(.green)
-                            Spacer()
-                            Image(systemName: "chevron.right.circle.fill")
-                        }
-                        .font(.system(size: 24, design: .rounded))
-                        .padding().background(Color.white)
-                        .cornerRadius(8)
-                        .shadow(radius: 2, y: 1)
-                    }
+        ScrollView {
+            ForEach(names, id: \.self) { name in
+                HStack {
+                    Text(name).foregroundColor(.primary)
+                    Image(systemName: "checkmark.seal.fill")
+                        .foregroundColor(.green)
+                    Spacer()
                 }
-                .padding(.horizontal)
+                .padding()
+                .background(Color.white.shadow(.drop(radius: 1, y: 1)),
+                            in: RoundedRectangle(cornerRadius: 8))
+                .padding(.bottom, 4)
             }
-            .navigationTitle("Cool People")
-            .tint(.pink)
+            .padding(.horizontal)
         }
-    }
-}
-
-struct DetailView: View {
-    var name = ""
-    var body: some View {
-        Text("You selected: \(name)")
-            .navigationTitle("Person")
+        .font(.title)
     }
 }
 

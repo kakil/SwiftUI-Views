@@ -8,13 +8,11 @@ struct ScrollView_Horizontal_SafeAreaInset: View {
     
     var body: some View {
         GeometryReader { gr in
-            VStack(spacing: 40) {
-                HeaderView("ScrollView",
-                           subtitle: "SafeAreaInset",
-                           desc: "Add the safeAreaInset to a ScrollView to show additional views that inset the ScrollView's content.")
+            VStack {
+                Spacer()
                 ScrollView(Axis.Set.horizontal, showsIndicators: true) {
                     HStack {
-                        ForEach(self.items, id: \.self) { item in
+                        ForEach(items, id: \.self) { item in
                             RoundedRectangle(cornerRadius: 15)
                                 .fill(item)
                                 .frame(width: gr.size.width - 60)
@@ -35,7 +33,8 @@ struct ScrollView_Horizontal_SafeAreaInset: View {
                 .frame(height: 200)
                 Spacer()
             }
-        }.font(.title)
+        }
+        .font(.title)
     }
 }
 

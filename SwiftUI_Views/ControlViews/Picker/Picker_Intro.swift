@@ -27,6 +27,5 @@ struct Picker_Intro : View {
 struct Picker_Intro_Previews : PreviewProvider {
     static var previews: some View {
         Picker_Intro()
-            .preferredColorScheme(.dark)
     }
 }

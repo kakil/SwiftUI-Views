@@ -5,36 +5,29 @@ import SwiftUI
 struct ScrollView_SafeAreaInset: View {
     @State private var names = ["Scott", "Mark", "Chris", "Sean", "Rod", "Meng", "Natasha", "Chase", "Evans", "Paul", "Durtschi", "Max"]
     var body: some View {
-        NavigationView {
-            ScrollView {
-                ForEach(self.names, id: \.self) { name in
-                    NavigationLink(destination: DetailView(name: name)) {
-                        HStack {
-                            Text(name)
-                                .foregroundColor(.primary)
-                            Image(systemName: "checkmark.seal.fill")
-                                .foregroundColor(.green)
-                            Spacer()
-                            Image(systemName: "chevron.right.circle.fill")
-                        }
-                        .padding()
-                        .background(Color.white)
-                        .cornerRadius(8)
-                        .shadow(radius: 2, y: 1)
-                    }
+        ScrollView {
+            ForEach(names, id: \.self) { name in
+                HStack {
+                    Text(name)
+                        .foregroundColor(.primary)
+                    Image(systemName: "checkmark.seal.fill")
+                        .foregroundColor(.green)
+                    Spacer()
                 }
-                .padding(.horizontal)
+                .padding()
+                .background(Color.white.shadow(.drop(radius: 1, y: 1)),
+                            in: RoundedRectangle(cornerRadius: 8))
             }
-            .safeAreaInset(edge: .bottom) {
-                VStack(spacing: 20) {
-                    Divider()
-                    Text("12 People")
-                }
-                .background(.regularMaterial)
-            }
-            .navigationTitle("Cool People")
+            .padding(.horizontal)
         }
-        .tint(.pink)
+        .safeAreaInset(edge: .bottom) {
+            VStack(spacing: 20) {
+                Divider()
+                Text("12 People")
+            }
+            .background(.regularMaterial)
+        }
+        .font(.title)
     }
 }
 

@@ -23,7 +23,7 @@ struct List_ListStyle_Inset: View {
                 Label("Learn Hair Styling", systemImage: "comb.fill")
             }
             .listStyle(.inset)
-            .accentColor(.green)
+            .tint(.green)
         }
         .font(.title)
     }

@@ -9,7 +9,7 @@ struct Searchable_DismissSearch: View {
     @State private var destination = ""
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             SearchableSubview(destination: $destination)
         }
         .searchable(text: $locationSearch) {

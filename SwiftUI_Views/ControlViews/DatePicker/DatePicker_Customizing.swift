@@ -13,7 +13,7 @@ struct DatePicker_Customizing: View {
             
             DatePicker("Birthday", selection: $date, displayedComponents: .date)
                 .datePickerStyle(.graphical)
-                .accentColor(.green)
+                .accentColor(.green) // Deprecated but tint does not work.
                 .padding()
                 .background(RoundedRectangle(cornerRadius: 20)
                                 .fill(Color.green)

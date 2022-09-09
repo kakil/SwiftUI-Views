@@ -6,47 +6,30 @@ struct Toolbar_OnSheet: View {
     @State private var presentingSheet = false
     
     var body: some View {
-        NavigationView {
-            VStack(spacing: 20) {
-                HeaderView("Toolbar",
-                           subtitle: "On a Sheet",
-                           desc: "The toolbar modifier will place items differently on a sheet depending on the placement parameter.",
-                           back: .green)
-                
-                Button("Show Sheet") {
-                    self.presentingSheet = true
-                }
-                .sheet(isPresented: $presentingSheet) {
-                    ConfirmationView()
-                }
-                Spacer()
-            }
-            .font(.title)
+        Button("Show Sheet") {
+            presentingSheet = true
         }
+        .sheet(isPresented: $presentingSheet) {
+            ConfirmationView()
+        }
+        .font(.title)
     }
 }
 struct ConfirmationView: View {
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(spacing: 20) {
-                HeaderView("Toolbar",
-                           subtitle: "On a Sheet",
-                           desc: "Notice the ToolbarItems are now at the top.",
-                           back: .green)
-                Spacer()
             }
             .padding(.top)
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Confirm", action: { dismiss() })
                 }
-                
                 ToolbarItem(placement: .destructiveAction) {
                     Button("Delete", action: { dismiss() })
                 }
-                
                 ToolbarItem(placement: .cancellationAction) {
                     Button("Cancel", action: { dismiss() })
                 }

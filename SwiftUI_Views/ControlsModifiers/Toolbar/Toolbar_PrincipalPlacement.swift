@@ -4,14 +4,9 @@ import SwiftUI
 
 struct Toolbar_PrincipalPlacement: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(spacing: 20) {
-                HeaderView("NavigationView",
-                           subtitle: "Customized Nav Bar",
-                           desc: "You can add views to the NavigationView with a ToolbarItem with a placement of \"principal\".",
-                           back: .green)
-                    .padding(.top)
-                
+                Divider()
                 Spacer()
             }
             .font(.title)

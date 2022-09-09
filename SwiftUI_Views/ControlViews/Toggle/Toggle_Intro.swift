@@ -14,13 +14,11 @@ struct Toggle_Intro : View {
             
             Toggle("Night Mode", isOn: $isToggleOn)
                 .padding()
-                .accentColor(Color.red)
             
             DescView(desc: "Combine images with text")
             
             Toggle(isOn: $isToggleOn) {
-                Text("Night Mode")
-                Image(systemName: "moon")
+                Label("Night Mode", systemImage: "moon")
             }
             .padding()
             

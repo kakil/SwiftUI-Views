@@ -7,7 +7,7 @@ struct Button_Tint: View {
         VStack(spacing: 40) {
             HeaderView("Button",
                        subtitle: "Tint",
-                       desc: "Tint is a little bit different than accentColor. The tint can affect button styles differently.")
+                       desc: "The tint can affect button styles differently.")
             
             Button("Bordered - Accent") { }
             .buttonStyle(.bordered)
@@ -21,13 +21,9 @@ struct Button_Tint: View {
             .buttonStyle(.borderless)
             .tint(.purple)
             
-            Button("Alternative AccentColor") { }
+            Button("Button - ForegroundColor") { }
             .buttonStyle(.borderless)
             .foregroundColor(Color.purple)
-            
-            Button("Deprecated AccentColor") { }
-            .buttonStyle(.borderless)
-            .accentColor(.purple)
         }
         .controlSize(.large)
         .font(.title)

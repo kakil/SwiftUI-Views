@@ -29,7 +29,7 @@ struct Header: View {
                         .font(.system(size: 120, design: .serif))
                         .foregroundColor(.green))
             .padding(.horizontal, -40)
-            .padding(.top, -50)
+            .padding(.top, -25)
     }
 }
 

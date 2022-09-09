@@ -6,7 +6,7 @@ struct Searchable_Completion: View {
     @State private var locationSearch = ""
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(spacing: 20.0) {
                 Text("Where do you want to go?")
                     .padding()

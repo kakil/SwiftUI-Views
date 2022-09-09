@@ -1,7 +1,7 @@
 //  Copyright © 2020 Mark Moeykens. All rights reserved. | @BigMtnStudio
 
 /*
- One thing to note is the List view will push the DisclosureGroup right off the screen.
+ One thing to note is the List view will push the DisclosureGroup right off the screen. (FIXED)
  */
 
 
@@ -11,7 +11,7 @@ struct DisclosureGroup_ListInside: View {
     @State var stories = ["Origin Story", "New York 1979", "Girl in the Woods", "Life at the end of the World", "It's Not What You Know", "Specifically Not That", "Mister with a Sister", "Origin Story", "New York 1979", "Girl in the Woods", "Life at the end of the World", "It's Not What You Know", "Specifically Not That", "Mister with a Sister","Origin Story", "New York 1979", "Girl in the Woods", "Life at the end of the World", "It's Not What You Know", "Specifically Not That", "Mister with a Sister"]
     
     var body: some View {
-        NavigationView () {
+        NavigationStack () {
             List {
                 DisclosureGroup(
                     content: {

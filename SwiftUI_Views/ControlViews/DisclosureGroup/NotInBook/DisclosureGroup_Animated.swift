@@ -28,7 +28,7 @@ struct DisclosureGroup_Animated: View {
                     .padding(.horizontal, 50)
             }
             .animation(Animation.easeInOut(duration: 1), value: disclosureExpanded)
-            .accentColor(.orange)
+            .tint(.orange)
             .padding()
             
             

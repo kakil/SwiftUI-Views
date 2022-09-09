@@ -9,15 +9,15 @@ struct DisclosureGroup_Color: View {
         VStack(spacing: 20) {
             HeaderView("DisclosureGroup",
                        subtitle: "Color",
-                       desc: "You can change the color of the chevron and label with the use of the accentColor modifier.")
+                       desc: "You can change the color of the chevron and label with the use of the tint modifier.")
             
             VStack(spacing: 20) {
-                DisclosureGroup("Accent Color", isExpanded: $disclosureExpanded) {
+                DisclosureGroup("Color", isExpanded: $disclosureExpanded) {
                     Text("If you want to expand a DisclosureGroup programmatically you can bind a property to the isExpanded parameter.")
                         .font(.title2)
                         .padding()
                 }
-                .accentColor(.orange)
+                .tint(.orange)
                 .padding()
                 .background(RoundedRectangle(cornerRadius: 20)
                                 .fill(Color.orange)

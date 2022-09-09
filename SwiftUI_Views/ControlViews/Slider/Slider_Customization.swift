@@ -17,18 +17,17 @@ struct Slider_Customization : View {
             
             Slider(value: $sliderValue)
                 .padding(.horizontal, 10)
-                .background(Color.orange)
-                .shadow(color: .gray, radius: 2)
+                .background(Color.orange.shadow(radius: 2))
                 .padding(.horizontal)
             
-            Text("Use the accentColor modifier to change the color of the track.")
+            Text("Use the tint modifier to change the color of the track.")
                 .frame(maxWidth: .infinity).padding()
                 .background(Color.orange).foregroundColor(Color.black)
                 .font(.title)
             
             Slider(value: $sliderValue)
                 .padding(.horizontal)
-                .accentColor(.orange)
+                .tint(.orange)
             
             Text("Using shapes and outlines.")
                 .frame(maxWidth: .infinity).padding()
@@ -43,7 +42,7 @@ struct Slider_Customization : View {
             Slider(value: $sliderValue)
                 .padding(10)
                 .background(Capsule().fill(Color.orange))
-                .accentColor(.black)
+                .tint(.black)
                 .padding(.horizontal)
         }
         .ignoresSafeArea()

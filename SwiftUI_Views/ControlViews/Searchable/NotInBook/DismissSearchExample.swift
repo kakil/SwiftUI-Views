@@ -8,7 +8,7 @@ struct DismissSearchExample: View {
 //    @Environment(\.dismissSearch) var dismissSearch
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
                 // Will ALWAYS be false
 //                Text("Parent: Searching? \(isSearching.description)")

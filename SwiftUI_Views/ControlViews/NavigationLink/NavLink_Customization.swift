@@ -4,14 +4,8 @@ import SwiftUI
 
 struct NavLink_Customization: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(spacing: 20) {
-                HeaderView("",
-                           subtitle: "Customization",
-                           desc: "You can customize NavigationLink just like you would with a Button.",
-                           back: Color("Theme3ForegroundColor"),
-                           textColor: Color("Theme3BackgroundColor"))
-                
                 NavigationLink(destination: SecondView()) {
                     Text("Navigate")
                         .foregroundColor(.white)
@@ -21,14 +15,12 @@ struct NavLink_Customization: View {
                 .tint(.pink)
                 
                 NavigationLink(destination: SecondView()) {
-                    HStack {
-                        Text("Navigate")
-                        Spacer()
+                    LabeledContent("Navigate") {
                         Image(systemName: "chevron.right")
+                            .foregroundColor(.accentColor)
                     }
                     .padding()
                 }
-                Spacer()
             }
             .navigationTitle("NavigationLink")
         }

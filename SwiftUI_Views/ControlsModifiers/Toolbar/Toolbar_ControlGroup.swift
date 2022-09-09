@@ -4,13 +4,9 @@ import SwiftUI
 
 struct Toolbar_ControlGroup: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(spacing: 20) {
-                HeaderView("",
-                           subtitle: "ControlGroup",
-                           desc: "Use the ControlGroup with a navigation style to show multiple buttons in the NavigationView that are closer together than using a ToolbarItemGroup.")
                 
-                Spacer()
             }
             .navigationTitle("Toolbar")
             .font(.title)

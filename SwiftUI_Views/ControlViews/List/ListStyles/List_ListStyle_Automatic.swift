@@ -22,7 +22,7 @@ struct List_ListStyle_Automatic: View {
                 Label("Learn 3D", systemImage: "cube.transparent")
                 Label("Learn Hair Styling", systemImage: "comb.fill")
             }
-            .accentColor(.green)
+            .tint(.green)
             .listStyle(.automatic)
         }
         .font(.title)

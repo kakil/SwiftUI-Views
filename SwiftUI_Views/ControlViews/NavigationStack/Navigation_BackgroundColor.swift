@@ -4,24 +4,14 @@ import SwiftUI
 
 struct Navigation_BackgroundColor: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ZStack {
-                Color("Theme3BackgroundColor")
-                    .ignoresSafeArea() // Allows background color to go BEHIND large nav bar.
+                Color.green.opacity(0.25)
+                    .ignoresSafeArea() // The nav stack is a safe area. This allows color to go BEHIND large nav bar.
                 
-                VStack(spacing: 25) {
-                    Image(systemName: "globe")
-                        .font(.largeTitle)
-                    HeaderView("NavigationView", subtitle: "Background Color", desc: "With the larger navigation bar, you can have a background color extend underneath it.",
-                               back: Color("Theme3ForegroundColor"),
-                               textColor: Color("Theme3BackgroundColor"))
-                    
-                    Spacer()
-                }
-                .font(.title)
-                .padding(.top, 25)
+                Color.gray.opacity(0.25) // The gray does not go into the nav stack area.
             }
-            .navigationTitle("Navigation Views")
+            .navigationTitle("Background Color")
         }
     }
 }

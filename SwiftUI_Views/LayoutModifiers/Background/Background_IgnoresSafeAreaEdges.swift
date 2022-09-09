@@ -5,7 +5,7 @@ import SwiftUI
 struct Background_IgnoresSafeAreaEdges: View {
     var body: some View {
         TabView {
-            NavigationView {
+            NavigationStack {
                 VStack(spacing: 20.0) {
                     Text("Prevent from going into Nav view.")
                         .background(Color("GoldColor"))
@@ -30,7 +30,7 @@ struct Background_IgnoresSafeAreaEdges: View {
                 Text("Color")
             }
             
-            NavigationView {
+            NavigationStack {
                 VStack(spacing: 20.0) {
                     Text("Prevent from going into Nav view.")
                         .background(Color("GoldColor"),

@@ -7,7 +7,7 @@ struct List_Selection_Single: View {
     @State private var selection: String?
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(spacing: 0) {
                 HeaderView("",
                            subtitle: "Selecting a Row",

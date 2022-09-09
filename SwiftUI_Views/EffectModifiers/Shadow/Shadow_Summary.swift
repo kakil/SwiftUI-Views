@@ -32,7 +32,7 @@ struct Shadow_Summary: View {
                     .overlay(Text("Offset: 5, 5"))
                 Color("Theme1Background")
                     .frame(width: 300, height: 75)
-                    .overlay(Text("Raised Effect").foregroundColor(.primary))
+                    .overlay(Text("Raised Effect"))
                     .cornerRadius(16)
                     .background(RoundedRectangle(cornerRadius: 16)
                                     .shadow(color: .white, radius: 4, x: -4, y: -4)

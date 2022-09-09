@@ -1,10 +1,4 @@
-//
-//  TextField_CustomComposition.swift
-//  100Views
-//
-//  Created by Mark Moeykens on 7/19/19.
 //  Copyright © 2019 Mark Moeykens. All rights reserved.
-//
 
 import SwiftUI
 
@@ -50,7 +44,7 @@ struct TextField_CustomComposition: View {
                 Button(action: {}) {
                     Image(systemName: "chevron.right").padding(.horizontal)
                 }
-                .accentColor(.orange)
+                .tint(.orange)
             }
             .padding()
             .overlay(Capsule().stroke(Color.gray, lineWidth: 1))

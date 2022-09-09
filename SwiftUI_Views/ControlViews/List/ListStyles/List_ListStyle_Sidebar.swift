@@ -21,10 +21,9 @@ struct List_ListStyle_Sidebar: View {
                 Label("Learn Physics", systemImage: "atom")
                 Label("Learn 3D", systemImage: "cube.transparent")
                 Label("Learn Hair Styling", systemImage: "comb.fill")
-                    .listItemTint(.red)
             }
             .listStyle(.sidebar)
-            .accentColor(.green)
+            .tint(.green)
         }
         .font(.title)
     }

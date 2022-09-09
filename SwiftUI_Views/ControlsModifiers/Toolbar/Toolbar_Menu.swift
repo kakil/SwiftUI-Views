@@ -4,12 +4,9 @@ import SwiftUI
 
 struct Toolbar_Menu: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(spacing: 20) {
-                HeaderView("",
-                           subtitle: "Showing Menu",
-                           desc: "You can create a menu from a toolbar button.")
-                Spacer()
+                
             }
             .navigationTitle("Toolbar")
             .font(.title)

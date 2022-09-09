@@ -26,9 +26,9 @@ struct Stepper_Colors : View {
                     Text("Default Color")
                 }
                 Stepper(value: $contrast, in: 0...100) {
-                    Text("Applying Accent Color (no effect)")
+                    Text("Applying Tint Color (no effect)")
                 }
-                .accentColor(.blue)
+                .tint(.blue)
                 
                 HStack {
                     Text("My Custom Colored Stepper")

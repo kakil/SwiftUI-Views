@@ -4,12 +4,9 @@ import SwiftUI
 
 struct Toolbar_ToolbarItemGroup: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
-                HeaderView("",
-                           subtitle: "ToolbarItemGroup",
-                           desc: "Use the ToolbarItemGroup to show multiple buttons in the NavigationView.")
-                Spacer()
+
             }
             .font(.title)
             .navigationTitle("Toolbar")

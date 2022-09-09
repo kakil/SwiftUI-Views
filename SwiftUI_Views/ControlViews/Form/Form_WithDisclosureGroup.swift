@@ -28,7 +28,7 @@ struct Form_WithDisclosureGroup: View {
             }
         }
         .font(.title)
-        .accentColor(.purple)
+        .tint(.purple)
     }
 }
 

@@ -4,13 +4,9 @@ import SwiftUI
 
 struct Toolbar_Location: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(spacing: 20) {
-                HeaderView("",
-                           subtitle: "ToolbarItem Location",
-                           desc: "You can also specify where you want ToolbarItems located when creating them.",
-                           back: .green)
-                Spacer()
+
             }
             .navigationTitle(Text("Toolbar"))
             .font(.title)

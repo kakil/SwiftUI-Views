@@ -4,14 +4,9 @@ import SwiftUI
 
 struct Toolbar_Intro: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(spacing: 20) {
-                HeaderView("",
-                           subtitle: "Introduction",
-                           desc: "Use the toolBar modifier to create ToolbarItems (buttons) that will show up inside a NavigationView.",
-                           back: .green)
-                
-                Spacer()
+
             }
             .navigationTitle("Toolbar")
             .font(.title)

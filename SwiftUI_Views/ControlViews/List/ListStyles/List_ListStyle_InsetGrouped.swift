@@ -23,7 +23,7 @@ struct List_ListStyle_InsetGrouped: View {
                 Label("Learn 3D", systemImage: "cube.transparent")
                 Label("Learn Hair Styling", systemImage: "comb.fill")
             }
-            .accentColor(.green)
+            .tint(.green)
             .listStyle(.insetGrouped)
         }
         .font(.title)

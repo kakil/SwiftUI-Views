@@ -35,7 +35,7 @@ struct OutlineGroup_Intro: View {
                 }
             }
             .padding(.horizontal)
-            .accentColor(.red)
+            .tint(.red)
         }
         .font(.title)
     }
