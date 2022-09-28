@@ -483,6 +483,7 @@
 		4D80B20F26701BE900F5240E /* TextField_OnSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D80B20E26701BE900F5240E /* TextField_OnSubmit.swift */; };
 		4D886AE927A8A54000DB7714 /* Button_Disabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D886AE827A8A54000DB7714 /* Button_Disabled.swift */; };
 		4D89CB54289E154F00BCE1D7 /* CompositingGroup_OneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D89CB53289E154F00BCE1D7 /* CompositingGroup_OneView.swift */; };
+		4D9EEC4828E478C4003333DC /* NavLink_isPresented.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EEC4728E478C4003333DC /* NavLink_isPresented.swift */; };
 		4DA78E8E27986EFC006DABB3 /* FB_FocusStateCrash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA78E8D27986EFC006DABB3 /* FB_FocusStateCrash.swift */; };
 		4DA7CB0F279C7C4400C7AE5D /* Alerts_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7CB0E279C7C4400C7AE5D /* Alerts_Intro.swift */; };
 		4DA7CB11279C81AC00C7AE5D /* Alerts_Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7CB10279C81AC00C7AE5D /* Alerts_Message.swift */; };
@@ -1286,6 +1287,7 @@
 		4D886AE827A8A54000DB7714 /* Button_Disabled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_Disabled.swift; sourceTree = "<group>"; };
 		4D89CB53289E154F00BCE1D7 /* CompositingGroup_OneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositingGroup_OneView.swift; sourceTree = "<group>"; };
 		4D89CB55289E1F4C00BCE1D7 /* iOS 16 Changes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "iOS 16 Changes.md"; sourceTree = "<group>"; };
+		4D9EEC4728E478C4003333DC /* NavLink_isPresented.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLink_isPresented.swift; sourceTree = "<group>"; };
 		4DA78E8D27986EFC006DABB3 /* FB_FocusStateCrash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FB_FocusStateCrash.swift; sourceTree = "<group>"; };
 		4DA7CB0E279C7C4400C7AE5D /* Alerts_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_Intro.swift; sourceTree = "<group>"; };
 		4DA7CB10279C81AC00C7AE5D /* Alerts_Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_Message.swift; sourceTree = "<group>"; };
@@ -3556,6 +3558,7 @@
 				5930016225CDE6E3004B5E3B /* NavLink_Customization.swift */,
 				4DDDB53728BABBC900C473D2 /* NavLink_WithNavigationDestination.swift */,
 				4DDDB53928BABCBD00C473D2 /* NavLink_WithDifferentTypes.swift */,
+				4D9EEC4728E478C4003333DC /* NavLink_isPresented.swift */,
 				4DDDB53B28BABEB500C473D2 /* Nav_WithPath.swift */,
 				4DDDB53D28BBB35600C473D2 /* Nav_WithPathAndEnum.swift */,
 				4DDDB53F28BCD84600C473D2 /* Nav_WithNavigationPath.swift */,
@@ -4888,6 +4891,7 @@
 				4D346E0423412E2A0076E7B8 /* AccentColor_AppliedToParent.swift in Sources */,
 				5907549D24A6F45800B599E0 /* LazyHGrid_ColumnSpacing.swift in Sources */,
 				4D0807D3236FCB5C002C8830 /* HighPriorityGesture_Before.swift in Sources */,
+				4D9EEC4828E478C4003333DC /* NavLink_isPresented.swift in Sources */,
 				4D346E1F23412E2A0076E7B8 /* Saturation_Intro.swift in Sources */,
 				4D27436626703CDB00158F16 /* Toolbar_OnKeyboard.swift in Sources */,
 				4D346CCD2340F28B0076E7B8 /* Color_WithUIColorSystem.swift in Sources */,

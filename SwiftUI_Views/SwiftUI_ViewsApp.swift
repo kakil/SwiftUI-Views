@@ -8,7 +8,7 @@ struct SwiftUI_ViewsApp: App {
         WindowGroup {
             // This is the starting point.
             // Switch out which view you want to see first.
-            Shadow_Style_Images()
+            NavLink_isPresented()
                 .onAppear {
                      // Hide layout constraint error messages in the debugger console so we can see other info more clearly
                      UserDefaults.standard.setValue(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
