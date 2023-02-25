@@ -3,7 +3,7 @@
 import SwiftUI
 
 struct LazyVStack_Table: View {
-    @State private var data = Data.getProfiles()
+    @State private var data = MockData.getProfiles()
     
     var body: some View {
         NavigationStack {

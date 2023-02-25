@@ -3,7 +3,7 @@
 import SwiftUI
 
 struct LazyHStack_PinnedViews: View {
-    @State private var teams = Data.getTeams()
+    @State private var teams = MockData.getTeams()
     
     var body: some View {
         VStack(spacing: 20) {

@@ -3,7 +3,7 @@
 import SwiftUI
 
 struct LazyVStack_WithScrolling: View {
-    @State private var teams = Data.getTeams()
+    @State private var teams = MockData.getTeams()
     
     var body: some View {
         VStack(spacing: 10) {
@@ -41,7 +41,7 @@ struct LazyVStack_WithScrolling_Previews: PreviewProvider {
 }
 
 struct TeamVerticalHeaderView: View {
-    var team: Data.Team
+    var team: MockData.Team
     
     var body: some View {
         HStack {
@@ -58,7 +58,7 @@ struct TeamVerticalHeaderView: View {
 }
 
 struct TeamVerticalFooterView: View {
-    var team: Data.Team
+    var team: MockData.Team
     
     var body: some View {
         HStack {

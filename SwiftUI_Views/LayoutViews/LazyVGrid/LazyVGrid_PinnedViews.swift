@@ -3,7 +3,7 @@
 import SwiftUI
 
 struct LazyVGrid_PinnedViews: View {
-    @State private var teams = Data.getTeams()
+    @State private var teams = MockData.getTeams()
     
     var body: some View {
         VStack(spacing: 15) {
@@ -43,7 +43,7 @@ struct LazyVGrid_PinnedViews_Previews: PreviewProvider {
 }
 
 struct TeamHeaderVGridView: View {
-    var team: Data.Team
+    var team: MockData.Team
     
     var body: some View {
         HStack(spacing: 8) {
@@ -62,7 +62,7 @@ struct TeamHeaderVGridView: View {
 }
 
 struct TeamFooterVGridView: View {
-    var team: Data.Team
+    var team: MockData.Team
 
     var body: some View {
         HStack(spacing: 0) {

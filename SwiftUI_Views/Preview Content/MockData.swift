@@ -3,7 +3,7 @@
 import Foundation
 import SwiftUI
 
-class Data {
+class MockData {
     struct Team: Identifiable {
         var id = UUID() // Give each profile a unique identifier
         var name = ""

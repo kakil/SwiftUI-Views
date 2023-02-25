@@ -3,7 +3,7 @@
 import SwiftUI
 
 struct ScrollViewReader_Automatic: View {
-    @State private var people = Data.getProfiles()
+    @State private var people = MockData.getProfiles()
     @State private var index = 0
     
     var body: some View {

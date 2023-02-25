@@ -3,7 +3,7 @@
 import SwiftUI
 
 struct LazyHStack_HeadersFooters: View {
-    @State private var teams = Data.getTeams()
+    @State private var teams = MockData.getTeams()
 
     var body: some View {
         VStack(spacing: 10.0) {
@@ -46,7 +46,7 @@ struct LazyHStack_HeadersFooters_Previews: PreviewProvider {
 }
 
 struct TeamHeaderView: View {
-    var team: Data.Team
+    var team: MockData.Team
     
     var body: some View {
         VStack(spacing: 8) {
@@ -64,7 +64,7 @@ struct TeamHeaderView: View {
 }
 
 struct TeamFooterView: View {
-    var team: Data.Team
+    var team: MockData.Team
 
     var body: some View {
         VStack(spacing: 0) {

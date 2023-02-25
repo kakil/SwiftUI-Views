@@ -3,7 +3,7 @@
 import SwiftUI
 
 struct LazyVGrid_VerticalAlignment: View {
-    @State private var people = Data.getProfiles()
+    @State private var people = MockData.getProfiles()
     
     var body: some View {
         VStack(spacing: 15) {
