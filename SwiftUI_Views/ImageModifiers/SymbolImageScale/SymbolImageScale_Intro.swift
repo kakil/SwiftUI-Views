@@ -1,10 +1,5 @@
-//
-//  SymbolImageScale_Intro.swift
-//  100Views
-//
 //  Created by Mark Moeykens on 9/16/19.
 //  Copyright © 2019 Mark Moeykens. All rights reserved.
-//
 
 import SwiftUI
 

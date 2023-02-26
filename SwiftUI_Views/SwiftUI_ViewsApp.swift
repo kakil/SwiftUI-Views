@@ -8,10 +8,10 @@ struct SwiftUI_ViewsApp: App {
         WindowGroup {
             // This is the starting point.
             // Switch out which view you want to see first.
-            NavLink_isPresented()
+            Sheet_PresentationBackground()
                 .onAppear {
                      // Hide layout constraint error messages in the debugger console so we can see other info more clearly
-                     UserDefaults.standard.setValue(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
+//                     UserDefaults.standard.setValue(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
                  }
         }
     }

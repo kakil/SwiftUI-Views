@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -446,6 +446,10 @@
 		4D66073F2792352F000F0821 /* Navigation_UINavigationBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D66073E2792352F000F0821 /* Navigation_UINavigationBarAppearance.swift */; };
 		4D6607452793483C000F0821 /* Toolbar_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6607442793483C000F0821 /* Toolbar_Menu.swift */; };
 		4D691CC7267451AE0060C93E /* List_AlternatesRowBackgrounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D691CC6267451AE0060C93E /* List_AlternatesRowBackgrounds.swift */; };
+		4D6CA92C29AA97D10014FB0D /* Sheet_Detents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6CA92B29AA97D10014FB0D /* Sheet_Detents.swift */; };
+		4D6CA92E29AAEBA30014FB0D /* Sheet_CustomSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6CA92D29AAEBA30014FB0D /* Sheet_CustomSizes.swift */; };
+		4D6CA93029AAEEBD0014FB0D /* Sheet_HideDragIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6CA92F29AAEEBD0014FB0D /* Sheet_HideDragIndicator.swift */; };
+		4D6CA93229AAEF500014FB0D /* Sheet_PresentationBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6CA93129AAEF500014FB0D /* Sheet_PresentationBackground.swift */; };
 		4D7159BC2671049A00EB43E0 /* Button_ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7159BB2671049A00EB43E0 /* Button_ButtonStyle.swift */; };
 		4D7159BE2671081A00EB43E0 /* Button_ControlSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7159BD2671081A00EB43E0 /* Button_ControlSize.swift */; };
 		4D7159C426710F4600EB43E0 /* Button_Tint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7159C326710F4600EB43E0 /* Button_Tint.swift */; };
@@ -1249,6 +1253,10 @@
 		4D66073E2792352F000F0821 /* Navigation_UINavigationBarAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_UINavigationBarAppearance.swift; sourceTree = "<group>"; };
 		4D6607442793483C000F0821 /* Toolbar_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_Menu.swift; sourceTree = "<group>"; };
 		4D691CC6267451AE0060C93E /* List_AlternatesRowBackgrounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_AlternatesRowBackgrounds.swift; sourceTree = "<group>"; };
+		4D6CA92B29AA97D10014FB0D /* Sheet_Detents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_Detents.swift; sourceTree = "<group>"; };
+		4D6CA92D29AAEBA30014FB0D /* Sheet_CustomSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_CustomSizes.swift; sourceTree = "<group>"; };
+		4D6CA92F29AAEEBD0014FB0D /* Sheet_HideDragIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_HideDragIndicator.swift; sourceTree = "<group>"; };
+		4D6CA93129AAEF500014FB0D /* Sheet_PresentationBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet_PresentationBackground.swift; sourceTree = "<group>"; };
 		4D7159BB2671049A00EB43E0 /* Button_ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_ButtonStyle.swift; sourceTree = "<group>"; };
 		4D7159BD2671081A00EB43E0 /* Button_ControlSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_ControlSize.swift; sourceTree = "<group>"; };
 		4D7159C326710F4600EB43E0 /* Button_Tint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_Tint.swift; sourceTree = "<group>"; };
@@ -2457,6 +2465,10 @@
 				4D346D1023412B860076E7B8 /* Sheet_Identifiable.swift */,
 				4DDB3C7D2765114B00B92550 /* Sheet_SwipeDisabled.swift */,
 				4DDB3C7F2765150800B92550 /* Sheet_SwipeDisabledWithBool.swift */,
+				4D6CA92B29AA97D10014FB0D /* Sheet_Detents.swift */,
+				4D6CA92D29AAEBA30014FB0D /* Sheet_CustomSizes.swift */,
+				4D6CA92F29AAEEBD0014FB0D /* Sheet_HideDragIndicator.swift */,
+				4D6CA93129AAEF500014FB0D /* Sheet_PresentationBackground.swift */,
 			);
 			path = Sheets;
 			sourceTree = "<group>";
@@ -4191,8 +4203,9 @@
 		4D346B422340ED5A0076E7B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "Mark Moeykens";
 				TargetAttributes = {
 					4D346B492340ED5A0076E7B8 = {
@@ -4555,6 +4568,7 @@
 				4DDB3C862765541B00B92550 /* Picker_Wheel.swift in Sources */,
 				4DDDB53A28BABCBD00C473D2 /* NavLink_WithDifferentTypes.swift in Sources */,
 				591DDEE924BE919E00D129C3 /* SignInWithApple_Customizing.swift in Sources */,
+				4D6CA92C29AA97D10014FB0D /* Sheet_Detents.swift in Sources */,
 				595A550624B57460009810E8 /* LazyHStack_HeadersFooters.swift in Sources */,
 				4D346CC52340F28B0076E7B8 /* Group_SharedAttributes.swift in Sources */,
 				4D89CB54289E154F00BCE1D7 /* CompositingGroup_OneView.swift in Sources */,
@@ -4679,6 +4693,7 @@
 				4D346E3923412E2B0076E7B8 /* BlendMode_Examples5.swift in Sources */,
 				4D346BC82340F0B20076E7B8 /* ZStack_Layering.swift in Sources */,
 				4D346CDD2340F28B0076E7B8 /* Rectangular_StrokeBorder.swift in Sources */,
+				4D6CA92E29AAEBA30014FB0D /* Sheet_CustomSizes.swift in Sources */,
 				4D346D06234123930076E7B8 /* Angular_Intro.swift in Sources */,
 				4D346CD52340F28B0076E7B8 /* Path_Intro.swift in Sources */,
 				59617F36254F0D800067E4B6 /* Menu_WithPickerInside.swift in Sources */,
@@ -4946,6 +4961,7 @@
 				4D346E0923412E2A0076E7B8 /* Shadow_OnDifferentViews.swift in Sources */,
 				4DDDB54B28BE54B800C473D2 /* Navigation_SplitViewColumnWidth.swift in Sources */,
 				4D346E1523412E2A0076E7B8 /* ColorInvert_Intro.swift in Sources */,
+				4D6CA93229AAEF500014FB0D /* Sheet_PresentationBackground.swift in Sources */,
 				59ECE2D524A79B2C001E0DFA /* Image_FromSymbolsWithColor.swift in Sources */,
 				595BD8A524B01CE3005AB91B /* LazyVStack_WithScrolling.swift in Sources */,
 				362AFE7A26ED10DE00894C19 /* ContentShape_ContentShapeKinds.swift in Sources */,
@@ -5020,6 +5036,7 @@
 				4D346D7323412C9C0076E7B8 /* Frame_IdealHeightWidth.swift in Sources */,
 				591DDEE724BE894400D129C3 /* ScrollViewReader_Animating.swift in Sources */,
 				592C0DCE24B4F6490074BD58 /* TextEditor_DismissKeyboard.swift in Sources */,
+				4D6CA93029AAEEBD0014FB0D /* Sheet_HideDragIndicator.swift in Sources */,
 				4D7F1F4323577AC000317582 /* TextField_Alignment.swift in Sources */,
 				59C375DE252A0F0F00BB2D89 /* DisclosureGroup_ListInside.swift in Sources */,
 				4D346D7E23412C9C0076E7B8 /* Padding_CustomEdgeInset.swift in Sources */,
@@ -5102,7 +5119,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -5159,7 +5176,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -5179,7 +5196,7 @@
 				DEVELOPMENT_TEAM = L2T9XB5368;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI_Views/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -5201,7 +5218,7 @@
 				DEVELOPMENT_TEAM = L2T9XB5368;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI_Views/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

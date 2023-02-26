@@ -12,7 +12,8 @@ struct Sheet_SwipeDisabledWithBool: View {
         .sheet(isPresented: $presentingSheet) {
             AgreementView(title: "Sheet",
                           subtitle: "Swipe Down Disabled with Bool")
-        }.font(.title)
+        }
+        .font(.title)
     }
 }
 

@@ -42,16 +42,18 @@ struct PhotosPicker_Intro_Previews: PreviewProvider {
 
 extension PhotosPickerItem {
     /// Load and return an image from a PhotosPickerItem
+    @MainActor
     func convert() async -> Image {
         do {
-            if let image = try await self.loadTransferable(type: Image.self) {
-                return image
-            } else {
-                return Image(systemName: "xmark.octagon")
+            if let data = try await self.loadTransferable(type: Data.self) {
+                if let uiImage = UIImage(data: data) {
+                    return Image(uiImage: uiImage)
+                }
             }
         } catch {
             print(error.localizedDescription)
-            return Image(systemName: "xmark.octagon")
         }
+        
+        return Image(systemName: "xmark.octagon")
     }
 }
