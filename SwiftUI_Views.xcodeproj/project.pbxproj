@@ -809,6 +809,7 @@
 		59EE491C23FF270900845934 /* Overlay_Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EE491B23FF270900845934 /* Overlay_Images.swift */; };
 		59F305F0251A402100EC2DBC /* Rotation_RotatingShapesInCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F305EF251A402100EC2DBC /* Rotation_RotatingShapesInCircle.swift */; };
 		969838752A3C939E006E1180 /* KitVStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969838742A3C939E006E1180 /* KitVStack_Intro.swift */; };
+		969838772A3CA64F006E1180 /* KVStack_Nesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969838762A3CA64F006E1180 /* KVStack_Nesting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1619,6 +1620,7 @@
 		59EE491B23FF270900845934 /* Overlay_Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay_Images.swift; sourceTree = "<group>"; };
 		59F305EF251A402100EC2DBC /* Rotation_RotatingShapesInCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation_RotatingShapesInCircle.swift; sourceTree = "<group>"; };
 		969838742A3C939E006E1180 /* KitVStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitVStack_Intro.swift; sourceTree = "<group>"; };
+		969838762A3CA64F006E1180 /* KVStack_Nesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVStack_Nesting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1930,6 +1932,7 @@
 				4D346BB82340F0B10076E7B8 /* Vstack_Spacing.swift */,
 				4D346BB72340F0B10076E7B8 /* VStack_Alignment.swift */,
 				969838742A3C939E006E1180 /* KitVStack_Intro.swift */,
+				969838762A3CA64F006E1180 /* KVStack_Nesting.swift */,
 			);
 			path = VerticalStack;
 			sourceTree = "<group>";
@@ -4991,6 +4994,7 @@
 				5939271F24F96FE500A4AD52 /* Edges_Landscape_Before.swift in Sources */,
 				4D346E2323412E2A0076E7B8 /* ColorMultiply_CantDo.swift in Sources */,
 				59D970C223AE7E3E009949EC /* Slider_RangeOfValues.swift in Sources */,
+				969838772A3CA64F006E1180 /* KVStack_Nesting.swift in Sources */,
 				59896A9324B824C100AD16A4 /* HStack_Intro.swift in Sources */,
 				59290DE524A41D2E004B8A35 /* ColorPicker_Intro.swift in Sources */,
 				59290DE924A41D53004B8A35 /* GroupBox_Intro.swift in Sources */,
