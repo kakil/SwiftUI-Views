@@ -810,6 +810,7 @@
 		59F305F0251A402100EC2DBC /* Rotation_RotatingShapesInCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F305EF251A402100EC2DBC /* Rotation_RotatingShapesInCircle.swift */; };
 		969838752A3C939E006E1180 /* KitVStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969838742A3C939E006E1180 /* KitVStack_Intro.swift */; };
 		969838772A3CA64F006E1180 /* KVStack_Nesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969838762A3CA64F006E1180 /* KVStack_Nesting.swift */; };
+		969838792A3CB1CC006E1180 /* KVStack_Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969838782A3CB1CC006E1180 /* KVStack_Spacing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1621,6 +1622,7 @@
 		59F305EF251A402100EC2DBC /* Rotation_RotatingShapesInCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation_RotatingShapesInCircle.swift; sourceTree = "<group>"; };
 		969838742A3C939E006E1180 /* KitVStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitVStack_Intro.swift; sourceTree = "<group>"; };
 		969838762A3CA64F006E1180 /* KVStack_Nesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVStack_Nesting.swift; sourceTree = "<group>"; };
+		969838782A3CB1CC006E1180 /* KVStack_Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVStack_Spacing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1933,6 +1935,7 @@
 				4D346BB72340F0B10076E7B8 /* VStack_Alignment.swift */,
 				969838742A3C939E006E1180 /* KitVStack_Intro.swift */,
 				969838762A3CA64F006E1180 /* KVStack_Nesting.swift */,
+				969838782A3CB1CC006E1180 /* KVStack_Spacing.swift */,
 			);
 			path = VerticalStack;
 			sourceTree = "<group>";
@@ -4343,6 +4346,7 @@
 				592B37E824C209100084935F /* VideoPlayer_FromUrl.swift in Sources */,
 				4D54E01A2360735F00E3F71F /* SymbolImageScale_Intro.swift in Sources */,
 				3645AC4626A6C12E00B4DA91 /* Path_RelativeArc_Mask.swift in Sources */,
+				969838792A3CB1CC006E1180 /* KVStack_Spacing.swift in Sources */,
 				360DC13826A3BA9100A64D89 /* List_ListStyle_Plain.swift in Sources */,
 				4D346B832340EDFC0076E7B8 /* Refactoring.swift in Sources */,
 				4D346CE02340F28B0076E7B8 /* Rectangular_WithControls.swift in Sources */,
