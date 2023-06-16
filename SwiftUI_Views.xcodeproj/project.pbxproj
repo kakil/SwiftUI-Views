@@ -811,6 +811,7 @@
 		969838752A3C939E006E1180 /* KitVStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969838742A3C939E006E1180 /* KitVStack_Intro.swift */; };
 		969838772A3CA64F006E1180 /* KVStack_Nesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969838762A3CA64F006E1180 /* KVStack_Nesting.swift */; };
 		969838792A3CB1CC006E1180 /* KVStack_Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969838782A3CB1CC006E1180 /* KVStack_Spacing.swift */; };
+		9698387B2A3CB84B006E1180 /* KVStack_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9698387A2A3CB84B006E1180 /* KVStack_Alignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1623,6 +1624,7 @@
 		969838742A3C939E006E1180 /* KitVStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitVStack_Intro.swift; sourceTree = "<group>"; };
 		969838762A3CA64F006E1180 /* KVStack_Nesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVStack_Nesting.swift; sourceTree = "<group>"; };
 		969838782A3CB1CC006E1180 /* KVStack_Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVStack_Spacing.swift; sourceTree = "<group>"; };
+		9698387A2A3CB84B006E1180 /* KVStack_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVStack_Alignment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1936,6 +1938,7 @@
 				969838742A3C939E006E1180 /* KitVStack_Intro.swift */,
 				969838762A3CA64F006E1180 /* KVStack_Nesting.swift */,
 				969838782A3CB1CC006E1180 /* KVStack_Spacing.swift */,
+				9698387A2A3CB84B006E1180 /* KVStack_Alignment.swift */,
 			);
 			path = VerticalStack;
 			sourceTree = "<group>";
@@ -4684,6 +4687,7 @@
 				4D346E0123412E2A0076E7B8 /* ForegroundColor_Intro.swift in Sources */,
 				4D7B498C2673C16C00827798 /* List_SwipeActions.swift in Sources */,
 				4D346D2F23412B860076E7B8 /* Popover_FromBool.swift in Sources */,
+				9698387B2A3CB84B006E1180 /* KVStack_Alignment.swift in Sources */,
 				4D346D08234123930076E7B8 /* Linear_ShapesAndControls.swift in Sources */,
 				3649EAAF272C538C009BC143 /* TextField_PersonNameComponents.swift in Sources */,
 				4D346CE32340F28B0076E7B8 /* Rectangular_Colors.swift in Sources */,
