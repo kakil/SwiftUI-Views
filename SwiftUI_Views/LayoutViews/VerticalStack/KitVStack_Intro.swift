@@ -13,7 +13,7 @@ struct KitVStack_Intro: View {
         VStack {
             HeaderView("VStack",
                        subtitle: "Introduction",
-                       desc: "A VStack will vertically arrange other views within itself.",
+                       desc: "A VStack will vertically arrange other views within itself. ",
                        back: .blue,
                        textColor: .white)
             Text("View 1")
