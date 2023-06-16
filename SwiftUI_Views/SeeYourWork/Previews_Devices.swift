@@ -25,6 +25,6 @@ struct Previews_Devices: View {
 struct Previews_Devices_Previews: PreviewProvider {
     static var previews: some View {
         Previews_Devices()
-            .previewDevice(PreviewDevice(rawValue: "iPad Pro (9.7-inch)"))
+            .previewDevice(PreviewDevice(rawValue: "iPad Pro (12.9-inch) (6th generation)"))
     }
 }

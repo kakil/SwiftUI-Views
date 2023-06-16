@@ -808,6 +808,7 @@
 		59ECE2D524A79B2C001E0DFA /* Image_FromSymbolsWithColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59ECE2D424A79B2C001E0DFA /* Image_FromSymbolsWithColor.swift */; };
 		59EE491C23FF270900845934 /* Overlay_Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EE491B23FF270900845934 /* Overlay_Images.swift */; };
 		59F305F0251A402100EC2DBC /* Rotation_RotatingShapesInCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F305EF251A402100EC2DBC /* Rotation_RotatingShapesInCircle.swift */; };
+		969838752A3C939E006E1180 /* KitVStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969838742A3C939E006E1180 /* KitVStack_Intro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1617,6 +1618,7 @@
 		59ECE2D424A79B2C001E0DFA /* Image_FromSymbolsWithColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_FromSymbolsWithColor.swift; sourceTree = "<group>"; };
 		59EE491B23FF270900845934 /* Overlay_Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay_Images.swift; sourceTree = "<group>"; };
 		59F305EF251A402100EC2DBC /* Rotation_RotatingShapesInCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation_RotatingShapesInCircle.swift; sourceTree = "<group>"; };
+		969838742A3C939E006E1180 /* KitVStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitVStack_Intro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1927,6 +1929,7 @@
 				59896A9024B81F3100AD16A4 /* VStack_Nesting.swift */,
 				4D346BB82340F0B10076E7B8 /* Vstack_Spacing.swift */,
 				4D346BB72340F0B10076E7B8 /* VStack_Alignment.swift */,
+				969838742A3C939E006E1180 /* KitVStack_Intro.swift */,
 			);
 			path = VerticalStack;
 			sourceTree = "<group>";
@@ -4962,6 +4965,7 @@
 				4DDDB54B28BE54B800C473D2 /* Navigation_SplitViewColumnWidth.swift in Sources */,
 				4D346E1523412E2A0076E7B8 /* ColorInvert_Intro.swift in Sources */,
 				4D6CA93229AAEF500014FB0D /* Sheet_PresentationBackground.swift in Sources */,
+				969838752A3C939E006E1180 /* KitVStack_Intro.swift in Sources */,
 				59ECE2D524A79B2C001E0DFA /* Image_FromSymbolsWithColor.swift in Sources */,
 				595BD8A524B01CE3005AB91B /* LazyVStack_WithScrolling.swift in Sources */,
 				362AFE7A26ED10DE00894C19 /* ContentShape_ContentShapeKinds.swift in Sources */,
