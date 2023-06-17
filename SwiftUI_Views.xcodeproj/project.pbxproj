@@ -812,6 +812,10 @@
 		969838772A3CA64F006E1180 /* KVStack_Nesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969838762A3CA64F006E1180 /* KVStack_Nesting.swift */; };
 		969838792A3CB1CC006E1180 /* KVStack_Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969838782A3CB1CC006E1180 /* KVStack_Spacing.swift */; };
 		9698387B2A3CB84B006E1180 /* KVStack_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9698387A2A3CB84B006E1180 /* KVStack_Alignment.swift */; };
+		96E2B4622A3DCCE100791C95 /* KLazyVStak_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B4612A3DCCE100791C95 /* KLazyVStak_Intro.swift */; };
+		96E2B4642A3DD4FA00791C95 /* KLazyVStack_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B4632A3DD4FA00791C95 /* KLazyVStack_Alignment.swift */; };
+		96E2B4662A3DD84F00791C95 /* KLazyVStack_WithScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B4652A3DD84F00791C95 /* KLazyVStack_WithScrolling.swift */; };
+		96E2B4682A3DE70100791C95 /* KLazyVStack_PinnedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B4672A3DE70100791C95 /* KLazyVStack_PinnedViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1625,6 +1629,10 @@
 		969838762A3CA64F006E1180 /* KVStack_Nesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVStack_Nesting.swift; sourceTree = "<group>"; };
 		969838782A3CB1CC006E1180 /* KVStack_Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVStack_Spacing.swift; sourceTree = "<group>"; };
 		9698387A2A3CB84B006E1180 /* KVStack_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVStack_Alignment.swift; sourceTree = "<group>"; };
+		96E2B4612A3DCCE100791C95 /* KLazyVStak_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyVStak_Intro.swift; sourceTree = "<group>"; };
+		96E2B4632A3DD4FA00791C95 /* KLazyVStack_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyVStack_Alignment.swift; sourceTree = "<group>"; };
+		96E2B4652A3DD84F00791C95 /* KLazyVStack_WithScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyVStack_WithScrolling.swift; sourceTree = "<group>"; };
+		96E2B4672A3DE70100791C95 /* KLazyVStack_PinnedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyVStack_PinnedViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -3834,9 +3842,13 @@
 			children = (
 				59CB802D256418D100DC7254 /* NotInBook */,
 				595BD8A024B01CBE005AB91B /* LazyVStack_Intro.swift */,
+				96E2B4612A3DCCE100791C95 /* KLazyVStak_Intro.swift */,
 				595BD8A224B01CD2005AB91B /* LazyVStack_Alignment.swift */,
+				96E2B4632A3DD4FA00791C95 /* KLazyVStack_Alignment.swift */,
 				595BD8A424B01CE3005AB91B /* LazyVStack_WithScrolling.swift */,
+				96E2B4652A3DD84F00791C95 /* KLazyVStack_WithScrolling.swift */,
 				595BD8A624B01CF8005AB91B /* LazyVStack_PinnedViews.swift */,
+				96E2B4672A3DE70100791C95 /* KLazyVStack_PinnedViews.swift */,
 			);
 			path = LazyVStack;
 			sourceTree = "<group>";
@@ -4326,6 +4338,7 @@
 				59C953152385BC8600FABCAB /* Radial_AsBackground.swift in Sources */,
 				4DA8AD9428C3A99B00B4D377 /* LabeledContent_Customization.swift in Sources */,
 				592042D3248C13C500F88A8D /* Path_QuadCurve2.swift in Sources */,
+				96E2B4682A3DE70100791C95 /* KLazyVStack_PinnedViews.swift in Sources */,
 				595B8E7024B943620096F456 /* HStack_TextAlignment_FirstLast.swift in Sources */,
 				4D346C3F2340F1B60076E7B8 /* Form_Intro.swift in Sources */,
 				599A5DDA24CA38140098D197 /* Menu_Intro.swift in Sources */,
@@ -4434,6 +4447,7 @@
 				4D54E01F2360735F00E3F71F /* Resizable_Intro.swift in Sources */,
 				4D7159E82672619200EB43E0 /* TabView_SymbolVariants.swift in Sources */,
 				4D54E0202360735F00E3F71F /* Interpolation_Intro.swift in Sources */,
+				96E2B4622A3DCCE100791C95 /* KLazyVStak_Intro.swift in Sources */,
 				4D346C642340F1B60076E7B8 /* Button-WithImages.swift in Sources */,
 				4DD4403D2401E89A00B980F8 /* ClipShape_WithLayers.swift in Sources */,
 				59ADC5B324B27CA000B3580D /* List_HeaderFooter_InsetGroup.swift in Sources */,
@@ -4684,6 +4698,7 @@
 				4DD2490C27EE423D003FA27B /* Link_ButtonStyles.swift in Sources */,
 				5945952C25FBEB4700CE939B /* TextField_OnChange.swift in Sources */,
 				592B37E224C1F0EC0084935F /* Image_ScaledMetricImage.swift in Sources */,
+				96E2B4642A3DD4FA00791C95 /* KLazyVStack_Alignment.swift in Sources */,
 				4D346E0123412E2A0076E7B8 /* ForegroundColor_Intro.swift in Sources */,
 				4D7B498C2673C16C00827798 /* List_SwipeActions.swift in Sources */,
 				4D346D2F23412B860076E7B8 /* Popover_FromBool.swift in Sources */,
@@ -5045,6 +5060,7 @@
 				4D80B20D267019D800F5240E /* Form_AlignmentOfLabels.swift in Sources */,
 				59B43B8A2662B33200316934 /* Accessibility_Traits.swift in Sources */,
 				4D346D02234123930076E7B8 /* ImagePaint_Strokes.swift in Sources */,
+				96E2B4662A3DD84F00791C95 /* KLazyVStack_WithScrolling.swift in Sources */,
 				59A48D9324AFCEC500BF7437 /* LazyVGrid_AdaptiveWidth.swift in Sources */,
 				4D346C442340F1B60076E7B8 /* Form_RowBackgroundImage.swift in Sources */,
 				4D346D8423412C9D0076E7B8 /* LayoutPriority_Solving3.swift in Sources */,
