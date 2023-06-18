@@ -816,6 +816,7 @@
 		96E2B4642A3DD4FA00791C95 /* KLazyVStack_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B4632A3DD4FA00791C95 /* KLazyVStack_Alignment.swift */; };
 		96E2B4662A3DD84F00791C95 /* KLazyVStack_WithScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B4652A3DD84F00791C95 /* KLazyVStack_WithScrolling.swift */; };
 		96E2B4682A3DE70100791C95 /* KLazyVStack_PinnedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B4672A3DE70100791C95 /* KLazyVStack_PinnedViews.swift */; };
+		96E2B46A2A3F090900791C95 /* KHStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B4692A3F090900791C95 /* KHStack_Intro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1633,6 +1634,7 @@
 		96E2B4632A3DD4FA00791C95 /* KLazyVStack_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyVStack_Alignment.swift; sourceTree = "<group>"; };
 		96E2B4652A3DD84F00791C95 /* KLazyVStack_WithScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyVStack_WithScrolling.swift; sourceTree = "<group>"; };
 		96E2B4672A3DE70100791C95 /* KLazyVStack_PinnedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyVStack_PinnedViews.swift; sourceTree = "<group>"; };
+		96E2B4692A3F090900791C95 /* KHStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHStack_Intro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1913,6 +1915,7 @@
 			isa = PBXGroup;
 			children = (
 				59896A9224B824C100AD16A4 /* HStack_Intro.swift */,
+				96E2B4692A3F090900791C95 /* KHStack_Intro.swift */,
 				4D346BAE2340F0B10076E7B8 /* HStack_Spacing.swift */,
 				4D346BAD2340F0B10076E7B8 /* HStack_VerticalAlignment.swift */,
 				591717E624B93E0600BDD191 /* HStack_TextAlignment.swift */,
@@ -4781,6 +4784,7 @@
 				4D346E0523412E2A0076E7B8 /* Shadow_Offset.swift in Sources */,
 				4D346E1923412E2A0076E7B8 /* Mask_Examples.swift in Sources */,
 				591410BE25477FE300BF39B1 /* Frame_NilValues.swift in Sources */,
+				96E2B46A2A3F090900791C95 /* KHStack_Intro.swift in Sources */,
 				4D346CDA2340F28B0076E7B8 /* Image_FromSymbols.swift in Sources */,
 				59ABDD5D24A5151F0020B7FB /* Text_ScaledMetric.swift in Sources */,
 				592B37E424C1F0FF0084935F /* Image_ScaledMetricSymbol.swift in Sources */,
