@@ -817,6 +817,7 @@
 		96E2B4662A3DD84F00791C95 /* KLazyVStack_WithScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B4652A3DD84F00791C95 /* KLazyVStack_WithScrolling.swift */; };
 		96E2B4682A3DE70100791C95 /* KLazyVStack_PinnedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B4672A3DE70100791C95 /* KLazyVStack_PinnedViews.swift */; };
 		96E2B46A2A3F090900791C95 /* KHStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B4692A3F090900791C95 /* KHStack_Intro.swift */; };
+		96E2B46C2A3F0B1F00791C95 /* KHStack_Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B46B2A3F0B1F00791C95 /* KHStack_Spacing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1635,6 +1636,7 @@
 		96E2B4652A3DD84F00791C95 /* KLazyVStack_WithScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyVStack_WithScrolling.swift; sourceTree = "<group>"; };
 		96E2B4672A3DE70100791C95 /* KLazyVStack_PinnedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyVStack_PinnedViews.swift; sourceTree = "<group>"; };
 		96E2B4692A3F090900791C95 /* KHStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHStack_Intro.swift; sourceTree = "<group>"; };
+		96E2B46B2A3F0B1F00791C95 /* KHStack_Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHStack_Spacing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1917,6 +1919,7 @@
 				59896A9224B824C100AD16A4 /* HStack_Intro.swift */,
 				96E2B4692A3F090900791C95 /* KHStack_Intro.swift */,
 				4D346BAE2340F0B10076E7B8 /* HStack_Spacing.swift */,
+				96E2B46B2A3F0B1F00791C95 /* KHStack_Spacing.swift */,
 				4D346BAD2340F0B10076E7B8 /* HStack_VerticalAlignment.swift */,
 				591717E624B93E0600BDD191 /* HStack_TextAlignment.swift */,
 				595B8E6F24B943620096F456 /* HStack_TextAlignment_FirstLast.swift */,
@@ -4298,6 +4301,7 @@
 				4D346D6D23412C9C0076E7B8 /* Position_Coordinates.swift in Sources */,
 				4D346DF323412E2A0076E7B8 /* Grayscale_Intro.swift in Sources */,
 				4DA8ADA228C3D97600B4D377 /* PhotosPicker_MultipleItems.swift in Sources */,
+				96E2B46C2A3F0B1F00791C95 /* KHStack_Spacing.swift in Sources */,
 				3654FA3326ADE2AF00A19AE6 /* Text_TimeFormatting.swift in Sources */,
 				591717E124B8CF8600BDD191 /* AlignmentGuide_Intro.swift in Sources */,
 				4D346CD12340F28B0076E7B8 /* Color_Inverting.swift in Sources */,
