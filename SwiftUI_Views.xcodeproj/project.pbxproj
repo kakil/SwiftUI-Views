@@ -820,6 +820,8 @@
 		96E2B46C2A3F0B1F00791C95 /* KHStack_Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B46B2A3F0B1F00791C95 /* KHStack_Spacing.swift */; };
 		96E2B46E2A3F0D1A00791C95 /* KHStack_VerticalAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B46D2A3F0D1A00791C95 /* KHStack_VerticalAlignment.swift */; };
 		96E2B4702A3F132900791C95 /* KHStack_TextAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B46F2A3F132900791C95 /* KHStack_TextAlignment.swift */; };
+		96E2B4722A3F199600791C95 /* KHStack_Customizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B4712A3F199600791C95 /* KHStack_Customizing.swift */; };
+		96E2B4742A3F215800791C95 /* KHStack_LayoutPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B4732A3F215800791C95 /* KHStack_LayoutPriority.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1641,6 +1643,8 @@
 		96E2B46B2A3F0B1F00791C95 /* KHStack_Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHStack_Spacing.swift; sourceTree = "<group>"; };
 		96E2B46D2A3F0D1A00791C95 /* KHStack_VerticalAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHStack_VerticalAlignment.swift; sourceTree = "<group>"; };
 		96E2B46F2A3F132900791C95 /* KHStack_TextAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHStack_TextAlignment.swift; sourceTree = "<group>"; };
+		96E2B4712A3F199600791C95 /* KHStack_Customizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHStack_Customizing.swift; sourceTree = "<group>"; };
+		96E2B4732A3F215800791C95 /* KHStack_LayoutPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHStack_LayoutPriority.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1930,7 +1934,9 @@
 				96E2B46F2A3F132900791C95 /* KHStack_TextAlignment.swift */,
 				595B8E6F24B943620096F456 /* HStack_TextAlignment_FirstLast.swift */,
 				4D346BAF2340F0B10076E7B8 /* HStack_Customizing.swift */,
+				96E2B4712A3F199600791C95 /* KHStack_Customizing.swift */,
 				4D346BAC2340F0B10076E7B8 /* HStack_LayoutPriority.swift */,
+				96E2B4732A3F215800791C95 /* KHStack_LayoutPriority.swift */,
 			);
 			path = HorizontalStack;
 			sourceTree = "<group>";
@@ -4701,6 +4707,7 @@
 				4D346DF923412E2A0076E7B8 /* HueRotation_Colors.swift in Sources */,
 				4D346D7F23412C9C0076E7B8 /* Padding_Length.swift in Sources */,
 				59B15414265E974D00E911E3 /* TextField_Autocapitalization.swift in Sources */,
+				96E2B4722A3F199600791C95 /* KHStack_Customizing.swift in Sources */,
 				4D500B4328C62639004F6348 /* Grid_CellColumns.swift in Sources */,
 				4D346B7B2340EDFC0076E7B8 /* Subtitle.swift in Sources */,
 				4D346CC82340F28B0076E7B8 /* Color_AsBackground.swift in Sources */,
@@ -4914,6 +4921,7 @@
 				4DDDB55C28BF8F7F00C473D2 /* Grid_ColumnCount.swift in Sources */,
 				590754A624A702DD00B599E0 /* HeaderView.swift in Sources */,
 				4D346D6623412C9C0076E7B8 /* Background_Shapes.swift in Sources */,
+				96E2B4742A3F215800791C95 /* KHStack_LayoutPriority.swift in Sources */,
 				597A61A72554F15300A822B8 /* Scrollview_Horizontal_Circles.swift in Sources */,
 				4D346E3023412E2A0076E7B8 /* Scale_ScaleEffectCompare.swift in Sources */,
 				4D54E01B2360735F00E3F71F /* RenderingMode_Intro.swift in Sources */,
