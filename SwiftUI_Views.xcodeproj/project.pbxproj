@@ -818,6 +818,7 @@
 		96E2B4682A3DE70100791C95 /* KLazyVStack_PinnedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B4672A3DE70100791C95 /* KLazyVStack_PinnedViews.swift */; };
 		96E2B46A2A3F090900791C95 /* KHStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B4692A3F090900791C95 /* KHStack_Intro.swift */; };
 		96E2B46C2A3F0B1F00791C95 /* KHStack_Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B46B2A3F0B1F00791C95 /* KHStack_Spacing.swift */; };
+		96E2B46E2A3F0D1A00791C95 /* KHStack_VerticalAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B46D2A3F0D1A00791C95 /* KHStack_VerticalAlignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1637,6 +1638,7 @@
 		96E2B4672A3DE70100791C95 /* KLazyVStack_PinnedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyVStack_PinnedViews.swift; sourceTree = "<group>"; };
 		96E2B4692A3F090900791C95 /* KHStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHStack_Intro.swift; sourceTree = "<group>"; };
 		96E2B46B2A3F0B1F00791C95 /* KHStack_Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHStack_Spacing.swift; sourceTree = "<group>"; };
+		96E2B46D2A3F0D1A00791C95 /* KHStack_VerticalAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHStack_VerticalAlignment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1921,6 +1923,7 @@
 				4D346BAE2340F0B10076E7B8 /* HStack_Spacing.swift */,
 				96E2B46B2A3F0B1F00791C95 /* KHStack_Spacing.swift */,
 				4D346BAD2340F0B10076E7B8 /* HStack_VerticalAlignment.swift */,
+				96E2B46D2A3F0D1A00791C95 /* KHStack_VerticalAlignment.swift */,
 				591717E624B93E0600BDD191 /* HStack_TextAlignment.swift */,
 				595B8E6F24B943620096F456 /* HStack_TextAlignment_FirstLast.swift */,
 				4D346BAF2340F0B10076E7B8 /* HStack_Customizing.swift */,
@@ -4318,6 +4321,7 @@
 				4D346D7B23412C9C0076E7B8 /* Padding_CombineLengthInset.swift in Sources */,
 				4DDA29C22381E4D80099CD2A /* TextField_Disabled.swift in Sources */,
 				4D80B20B26700D6100F5240E /* Text_DateFormat_Specific.swift in Sources */,
+				96E2B46E2A3F0D1A00791C95 /* KHStack_VerticalAlignment.swift in Sources */,
 				4D7159D12671470E00EB43E0 /* Background_Content.swift in Sources */,
 				4D80B1FC266FECEC00F5240E /* Sheet_Background.swift in Sources */,
 				4D298B6A2342727700D3C86F /* ZStack_BackgroundColor_Problem.swift in Sources */,
