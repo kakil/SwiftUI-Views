@@ -811,6 +811,7 @@
 		965D10E02A45C3BA00366ADC /* KLazyHStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D10DF2A45C3BA00366ADC /* KLazyHStack_Intro.swift */; };
 		965D10E22A45D13A00366ADC /* KLazyHStack_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D10E12A45D13A00366ADC /* KLazyHStack_Alignment.swift */; };
 		965D10E42A45D53500366ADC /* KLazyHStack_WithScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D10E32A45D53500366ADC /* KLazyHStack_WithScrolling.swift */; };
+		965D10E62A45D8A300366ADC /* KLazyHStack_HeadersFooters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D10E52A45D8A300366ADC /* KLazyHStack_HeadersFooters.swift */; };
 		969838752A3C939E006E1180 /* KitVStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969838742A3C939E006E1180 /* KitVStack_Intro.swift */; };
 		969838772A3CA64F006E1180 /* KVStack_Nesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969838762A3CA64F006E1180 /* KVStack_Nesting.swift */; };
 		969838792A3CB1CC006E1180 /* KVStack_Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969838782A3CB1CC006E1180 /* KVStack_Spacing.swift */; };
@@ -1637,6 +1638,7 @@
 		965D10DF2A45C3BA00366ADC /* KLazyHStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyHStack_Intro.swift; sourceTree = "<group>"; };
 		965D10E12A45D13A00366ADC /* KLazyHStack_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyHStack_Alignment.swift; sourceTree = "<group>"; };
 		965D10E32A45D53500366ADC /* KLazyHStack_WithScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyHStack_WithScrolling.swift; sourceTree = "<group>"; };
+		965D10E52A45D8A300366ADC /* KLazyHStack_HeadersFooters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyHStack_HeadersFooters.swift; sourceTree = "<group>"; };
 		969838742A3C939E006E1180 /* KitVStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitVStack_Intro.swift; sourceTree = "<group>"; };
 		969838762A3CA64F006E1180 /* KVStack_Nesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVStack_Nesting.swift; sourceTree = "<group>"; };
 		969838782A3CB1CC006E1180 /* KVStack_Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVStack_Spacing.swift; sourceTree = "<group>"; };
@@ -4165,6 +4167,7 @@
 				59EA3BCE24A2C29C009BC0D0 /* LazyHStack_WithScrolling.swift */,
 				965D10E32A45D53500366ADC /* KLazyHStack_WithScrolling.swift */,
 				595A550524B57460009810E8 /* LazyHStack_HeadersFooters.swift */,
+				965D10E52A45D8A300366ADC /* KLazyHStack_HeadersFooters.swift */,
 				59EA3BD024A2C7F4009BC0D0 /* LazyHStack_PinnedViews.swift */,
 			);
 			path = LazyHStack;
@@ -4979,6 +4982,7 @@
 				59CD860624B426E700E4F4FF /* TextEditor_LineSpacing.swift in Sources */,
 				4D346BBC2340F0B10076E7B8 /* GeometryReader_GettingCoordinates.swift in Sources */,
 				59E87E14250AD1C900FA5CE3 /* Group_MultipleVStacks.swift in Sources */,
+				965D10E62A45D8A300366ADC /* KLazyHStack_HeadersFooters.swift in Sources */,
 				4D346C732340F1B60076E7B8 /* List_MoveRow.swift in Sources */,
 				4DB64AF6236DE9D900B74D21 /* DragGesture_OnEnded.swift in Sources */,
 				4D51CBAB27A5978000A2E1B5 /* DismissSearchAppleExample.swift in Sources */,
