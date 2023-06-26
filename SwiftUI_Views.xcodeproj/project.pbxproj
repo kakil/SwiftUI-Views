@@ -811,6 +811,8 @@
 		960F94322A499D6D001FAEE0 /* KLazyHStack_PinnedView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F94312A499D6D001FAEE0 /* KLazyHStack_PinnedView2.swift */; };
 		960F94342A49A9AF001FAEE0 /* KZStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F94332A49A9AF001FAEE0 /* KZStack_Intro.swift */; };
 		960F94362A49BC73001FAEE0 /* KZStack_IgnoresSafeAreaEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F94352A49BC73001FAEE0 /* KZStack_IgnoresSafeAreaEdges.swift */; };
+		960F94382A49C518001FAEE0 /* KZStack_BackgroundColor_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F94372A49C518001FAEE0 /* KZStack_BackgroundColor_Problem.swift */; };
+		960F943A2A49C802001FAEE0 /* KZStack_BackgroundColor_Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F94392A49C802001FAEE0 /* KZStack_BackgroundColor_Solution.swift */; };
 		965D10E02A45C3BA00366ADC /* KLazyHStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D10DF2A45C3BA00366ADC /* KLazyHStack_Intro.swift */; };
 		965D10E22A45D13A00366ADC /* KLazyHStack_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D10E12A45D13A00366ADC /* KLazyHStack_Alignment.swift */; };
 		965D10E42A45D53500366ADC /* KLazyHStack_WithScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D10E32A45D53500366ADC /* KLazyHStack_WithScrolling.swift */; };
@@ -1642,6 +1644,8 @@
 		960F94312A499D6D001FAEE0 /* KLazyHStack_PinnedView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyHStack_PinnedView2.swift; sourceTree = "<group>"; };
 		960F94332A49A9AF001FAEE0 /* KZStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZStack_Intro.swift; sourceTree = "<group>"; };
 		960F94352A49BC73001FAEE0 /* KZStack_IgnoresSafeAreaEdges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZStack_IgnoresSafeAreaEdges.swift; sourceTree = "<group>"; };
+		960F94372A49C518001FAEE0 /* KZStack_BackgroundColor_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZStack_BackgroundColor_Problem.swift; sourceTree = "<group>"; };
+		960F94392A49C802001FAEE0 /* KZStack_BackgroundColor_Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZStack_BackgroundColor_Solution.swift; sourceTree = "<group>"; };
 		965D10DF2A45C3BA00366ADC /* KLazyHStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyHStack_Intro.swift; sourceTree = "<group>"; };
 		965D10E12A45D13A00366ADC /* KLazyHStack_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyHStack_Alignment.swift; sourceTree = "<group>"; };
 		965D10E32A45D53500366ADC /* KLazyHStack_WithScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyHStack_WithScrolling.swift; sourceTree = "<group>"; };
@@ -1965,7 +1969,9 @@
 				4D346BB12340F0B10076E7B8 /* ZStack_IgnoreSafeAreaEdges.swift */,
 				960F94352A49BC73001FAEE0 /* KZStack_IgnoresSafeAreaEdges.swift */,
 				4D298B692342727700D3C86F /* ZStack_BackgroundColor_Problem.swift */,
+				960F94372A49C518001FAEE0 /* KZStack_BackgroundColor_Problem.swift */,
 				4D5C181F23427F3600311B86 /* ZStack_BackgroundColor_Solution.swift */,
+				960F94392A49C802001FAEE0 /* KZStack_BackgroundColor_Solution.swift */,
 				4D346BB32340F0B10076E7B8 /* ZStack_Layering.swift */,
 				59896A8A24B803FE00AD16A4 /* ZStack_Aligning.swift */,
 			);
@@ -4740,6 +4746,7 @@
 				4D346E1423412E2A0076E7B8 /* ColorInvert_Photos.swift in Sources */,
 				59ECCDD224B29A75006FEA9E /* OutlineGroup_Intro.swift in Sources */,
 				4D346B992340EFFC0076E7B8 /* Preview_LightAndDarkMode.swift in Sources */,
+				960F943A2A49C802001FAEE0 /* KZStack_BackgroundColor_Solution.swift in Sources */,
 				4D346C7D2340F1B60076E7B8 /* TabView_Navigating.swift in Sources */,
 				4D346CCA2340F28B0076E7B8 /* Color_Intro.swift in Sources */,
 				4DD2490C27EE423D003FA27B /* Link_ButtonStyles.swift in Sources */,
@@ -4856,6 +4863,7 @@
 				4DF240E426758AF300273408 /* Text_AttributedString.swift in Sources */,
 				4D346B9E2340EFFD0076E7B8 /* Preview_DarkMode.swift in Sources */,
 				59290DF124A4214E004B8A35 /* List_ListStyle_InsetGrouped.swift in Sources */,
+				960F94382A49C518001FAEE0 /* KZStack_BackgroundColor_Problem.swift in Sources */,
 				5976F2E624B3BAF60027203C /* Grids.swift in Sources */,
 				4D80B201266FF28700F5240E /* Preview_InterfaceOrientation.swift in Sources */,
 				4DDB3C8227651D8700B92550 /* List_HeaderFooter_Intro.swift in Sources */,
