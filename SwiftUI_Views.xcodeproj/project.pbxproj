@@ -814,6 +814,7 @@
 		960F94382A49C518001FAEE0 /* KZStack_BackgroundColor_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F94372A49C518001FAEE0 /* KZStack_BackgroundColor_Problem.swift */; };
 		960F943A2A49C802001FAEE0 /* KZStack_BackgroundColor_Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F94392A49C802001FAEE0 /* KZStack_BackgroundColor_Solution.swift */; };
 		960F943C2A49CC06001FAEE0 /* KZStack_Layering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F943B2A49CC06001FAEE0 /* KZStack_Layering.swift */; };
+		960F943E2A49CDF5001FAEE0 /* KZStack_Aligning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F943D2A49CDF5001FAEE0 /* KZStack_Aligning.swift */; };
 		965D10E02A45C3BA00366ADC /* KLazyHStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D10DF2A45C3BA00366ADC /* KLazyHStack_Intro.swift */; };
 		965D10E22A45D13A00366ADC /* KLazyHStack_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D10E12A45D13A00366ADC /* KLazyHStack_Alignment.swift */; };
 		965D10E42A45D53500366ADC /* KLazyHStack_WithScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D10E32A45D53500366ADC /* KLazyHStack_WithScrolling.swift */; };
@@ -1648,6 +1649,7 @@
 		960F94372A49C518001FAEE0 /* KZStack_BackgroundColor_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZStack_BackgroundColor_Problem.swift; sourceTree = "<group>"; };
 		960F94392A49C802001FAEE0 /* KZStack_BackgroundColor_Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZStack_BackgroundColor_Solution.swift; sourceTree = "<group>"; };
 		960F943B2A49CC06001FAEE0 /* KZStack_Layering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZStack_Layering.swift; sourceTree = "<group>"; };
+		960F943D2A49CDF5001FAEE0 /* KZStack_Aligning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZStack_Aligning.swift; sourceTree = "<group>"; };
 		965D10DF2A45C3BA00366ADC /* KLazyHStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyHStack_Intro.swift; sourceTree = "<group>"; };
 		965D10E12A45D13A00366ADC /* KLazyHStack_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyHStack_Alignment.swift; sourceTree = "<group>"; };
 		965D10E32A45D53500366ADC /* KLazyHStack_WithScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyHStack_WithScrolling.swift; sourceTree = "<group>"; };
@@ -1977,6 +1979,7 @@
 				4D346BB32340F0B10076E7B8 /* ZStack_Layering.swift */,
 				960F943B2A49CC06001FAEE0 /* KZStack_Layering.swift */,
 				59896A8A24B803FE00AD16A4 /* ZStack_Aligning.swift */,
+				960F943D2A49CDF5001FAEE0 /* KZStack_Aligning.swift */,
 			);
 			path = ZStack;
 			sourceTree = "<group>";
@@ -4875,6 +4878,7 @@
 				4D346D8623412C9D0076E7B8 /* LayoutPriority_Solving5.swift in Sources */,
 				4D346B8A2340EDFC0076E7B8 /* VerticalStack.swift in Sources */,
 				4D5ECEF028C126A500671452 /* Chart_Groups.swift in Sources */,
+				960F943E2A49CDF5001FAEE0 /* KZStack_Aligning.swift in Sources */,
 				4D51CBAD27A5ABC200A2E1B5 /* DismissSearchExample.swift in Sources */,
 				4D346DFF23412E2A0076E7B8 /* Scale_Anchor.swift in Sources */,
 				4D346C632340F1B60076E7B8 /* Button-WithBackgrounds.swift in Sources */,
