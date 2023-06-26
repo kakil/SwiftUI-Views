@@ -808,6 +808,9 @@
 		59ECE2D524A79B2C001E0DFA /* Image_FromSymbolsWithColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59ECE2D424A79B2C001E0DFA /* Image_FromSymbolsWithColor.swift */; };
 		59EE491C23FF270900845934 /* Overlay_Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EE491B23FF270900845934 /* Overlay_Images.swift */; };
 		59F305F0251A402100EC2DBC /* Rotation_RotatingShapesInCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F305EF251A402100EC2DBC /* Rotation_RotatingShapesInCircle.swift */; };
+		960F94322A499D6D001FAEE0 /* KLazyHStack_PinnedView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F94312A499D6D001FAEE0 /* KLazyHStack_PinnedView2.swift */; };
+		960F94342A49A9AF001FAEE0 /* KZStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F94332A49A9AF001FAEE0 /* KZStack_Intro.swift */; };
+		960F94362A49BC73001FAEE0 /* KZStack_IgnoresSafeAreaEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F94352A49BC73001FAEE0 /* KZStack_IgnoresSafeAreaEdges.swift */; };
 		965D10E02A45C3BA00366ADC /* KLazyHStack_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D10DF2A45C3BA00366ADC /* KLazyHStack_Intro.swift */; };
 		965D10E22A45D13A00366ADC /* KLazyHStack_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D10E12A45D13A00366ADC /* KLazyHStack_Alignment.swift */; };
 		965D10E42A45D53500366ADC /* KLazyHStack_WithScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D10E32A45D53500366ADC /* KLazyHStack_WithScrolling.swift */; };
@@ -1636,6 +1639,9 @@
 		59ECE2D424A79B2C001E0DFA /* Image_FromSymbolsWithColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_FromSymbolsWithColor.swift; sourceTree = "<group>"; };
 		59EE491B23FF270900845934 /* Overlay_Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay_Images.swift; sourceTree = "<group>"; };
 		59F305EF251A402100EC2DBC /* Rotation_RotatingShapesInCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation_RotatingShapesInCircle.swift; sourceTree = "<group>"; };
+		960F94312A499D6D001FAEE0 /* KLazyHStack_PinnedView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyHStack_PinnedView2.swift; sourceTree = "<group>"; };
+		960F94332A49A9AF001FAEE0 /* KZStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZStack_Intro.swift; sourceTree = "<group>"; };
+		960F94352A49BC73001FAEE0 /* KZStack_IgnoresSafeAreaEdges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZStack_IgnoresSafeAreaEdges.swift; sourceTree = "<group>"; };
 		965D10DF2A45C3BA00366ADC /* KLazyHStack_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyHStack_Intro.swift; sourceTree = "<group>"; };
 		965D10E12A45D13A00366ADC /* KLazyHStack_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyHStack_Alignment.swift; sourceTree = "<group>"; };
 		965D10E32A45D53500366ADC /* KLazyHStack_WithScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLazyHStack_WithScrolling.swift; sourceTree = "<group>"; };
@@ -1955,7 +1961,9 @@
 			isa = PBXGroup;
 			children = (
 				4D346BB42340F0B10076E7B8 /* ZStack_Intro.swift */,
+				960F94332A49A9AF001FAEE0 /* KZStack_Intro.swift */,
 				4D346BB12340F0B10076E7B8 /* ZStack_IgnoreSafeAreaEdges.swift */,
+				960F94352A49BC73001FAEE0 /* KZStack_IgnoresSafeAreaEdges.swift */,
 				4D298B692342727700D3C86F /* ZStack_BackgroundColor_Problem.swift */,
 				4D5C181F23427F3600311B86 /* ZStack_BackgroundColor_Solution.swift */,
 				4D346BB32340F0B10076E7B8 /* ZStack_Layering.swift */,
@@ -4172,6 +4180,7 @@
 				965D10E52A45D8A300366ADC /* KLazyHStack_HeadersFooters.swift */,
 				59EA3BD024A2C7F4009BC0D0 /* LazyHStack_PinnedViews.swift */,
 				965D10E72A45E5A400366ADC /* KLazyHStack_PinnedViews.swift */,
+				960F94312A499D6D001FAEE0 /* KLazyHStack_PinnedView2.swift */,
 			);
 			path = LazyHStack;
 			sourceTree = "<group>";
@@ -4881,6 +4890,7 @@
 				4D346D6A23412C9C0076E7B8 /* ScaleToFill_Intro.swift in Sources */,
 				59D4B12D24B17546002C2048 /* Label_Problem.swift in Sources */,
 				4D7159F026727E4A00EB43E0 /* Image_ForegroundStyle.swift in Sources */,
+				960F94342A49A9AF001FAEE0 /* KZStack_Intro.swift in Sources */,
 				4D7159FB2672FBFA00EB43E0 /* List_ListRowSeparatorTint.swift in Sources */,
 				4D346E3123412E2A0076E7B8 /* Rotation.swift in Sources */,
 				4D54DFFA2360734600E3F71F /* ButtonStyle_ApplyOnParent.swift in Sources */,
@@ -5020,6 +5030,7 @@
 				59329A0124D3BFC90079351F /* Menu_MenuPosition.swift in Sources */,
 				4D346E2623412E2A0076E7B8 /* CornerRadius_FullyRoundedSides.swift in Sources */,
 				364A442026A7DB9B00BEB939 /* List_ListSectionSeparator.swift in Sources */,
+				960F94362A49BC73001FAEE0 /* KZStack_IgnoresSafeAreaEdges.swift in Sources */,
 				4D1EDF2027EF7756009ABDF6 /* Menu_WithSections.swift in Sources */,
 				4D346C482340F1B60076E7B8 /* Picker_BindingToData.swift in Sources */,
 				4D5ECEF428C172A600671452 /* Chart_BarMarkStacking.swift in Sources */,
@@ -5072,6 +5083,7 @@
 				4D346CDC2340F28B0076E7B8 /* Rectangular_SizeModifier.swift in Sources */,
 				4D346C8E2340F1B70076E7B8 /* SecureField_Intro.swift in Sources */,
 				597B9BF624A3994B003320E2 /* TextEditor_LineLimit.swift in Sources */,
+				960F94322A499D6D001FAEE0 /* KLazyHStack_PinnedView2.swift in Sources */,
 				592B37EC24C287EB0084935F /* List_ListItemTint.swift in Sources */,
 				360F247E26F4140500125B43 /* EllipticalGradient_SizeChanges.swift in Sources */,
 				4D1EDF2427F377E3009ABDF6 /* FullScreenCover_OverBars.swift in Sources */,
